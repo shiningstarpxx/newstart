@@ -22,3 +22,28 @@ func TestNewUnionFind(t *testing.T) {
 	a.Equal(4, v.Count())
 }
 
+func TestUnionFind_IsConnected(t *testing.T) {
+	v := NewUnionFind(5)
+
+	// {0, 1}, 2, 3, 4
+	v.Union(0, 1)
+
+	// {0, 1}, 2, {3, 4}
+	v.Union(3, 4)
+
+	// {0, 1, 2}, {3, 4}
+	v.Union(2, 1)
+
+	a := assert.New(t)
+	a.Equal(true, v.IsConnected(0, 1))
+	a.Equal(true, v.IsConnected(0, 2))
+	a.Equal(true, v.IsConnected(1, 2))
+	a.True(v.IsConnected(3, 4))
+
+	a.False(v.IsConnected(0, 3))
+	a.False(v.IsConnected(0, 4))
+	a.False(v.IsConnected(1, 3))
+	a.False(v.IsConnected(1, 4))
+	a.False(v.IsConnected(2, 3))
+	a.False(v.IsConnected(2, 4))
+}
