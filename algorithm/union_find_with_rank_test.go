@@ -1,7 +1,7 @@
 /*
    @Copyright: Tencent (1998-2022)
    @Author: Pei, Xingxin
-   @Created:  12:42 PM  26/5/2021
+   @Created:  10:08 PM  29/5/2021
    @Email: xingxinpei@gmail, michaelpei@tencent.com
    @Description:
 */
@@ -12,9 +12,9 @@ import (
 	"testing"
 )
 
-func TestNewUnionFind(t *testing.T) {
+func TestNewUnionFindWithRank(t *testing.T) {
 	a := assert.New(t)
-	v := NewUnionFind(5)
+	v := NewUnionFindWithRank(5)
 	a.Equal(5, v.Count())
 
 	// {0, 1}, 2, 3, 4
@@ -22,8 +22,8 @@ func TestNewUnionFind(t *testing.T) {
 	a.Equal(4, v.Count())
 }
 
-func TestUnionFind_IsConnected(t *testing.T) {
-	v := NewUnionFind(5)
+func TestUnionFindWithRank_IsConnected(t *testing.T) {
+	v := NewUnionFindWithRank(5)
 
 	// {0, 1}, 2, 3, 4
 	v.Union(0, 1)
@@ -48,8 +48,8 @@ func TestUnionFind_IsConnected(t *testing.T) {
 	a.False(v.IsConnected(2, 4))
 }
 
-func TestUnionFind_Find(t *testing.T) {
-	v := NewUnionFind(5)
+func TestUnionFindWithRank_Find(t *testing.T) {
+	v := NewUnionFindWithRank(5)
 	a := assert.New(t)
 
 	// {0->1}, 2, 3, 4
@@ -74,15 +74,17 @@ func TestUnionFind_Find(t *testing.T) {
 	a.Equal(4, v.Find(0))
 }
 
-func TestUnionFind_Union(t *testing.T) {
-	v := NewUnionFind(5)
+func TestUnionFindWithRank_Union(t *testing.T) {
+	v := NewUnionFindWithRank(5)
 	a := assert.New(t)
 
 	// {0, 1}, 2, 3, 4
 	v.Union(0, 1)
 	a.Equal(4, v.Count())
+	// TODO(michael), Need find a way to test lacal value
 	a.Equal(1, v.Find(0))
 	a.Equal(1, v.Find(1))
+
 	// {0, 1}, 2, {3, 4}
 	v.Union(3, 4)
 	a.Equal(3, v.Count())
