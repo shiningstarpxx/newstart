@@ -22,16 +22,25 @@ func NewBinaryIndexedTree(arr []int) *BinaryIndexedTree {
 	}
 
 	for i := 0; i < n; i++ {
-		v.UpdateBITree(n, i, arr[i])
+		v.UpdateBITree(i, arr[i])
 	}
 	return v
 }
 
-func (b* BinaryIndexedTree) UpdateBITree(size int, index int, v int) {
+func (b* BinaryIndexedTree) UpdateBITree(index int, v int) {
 	index = index + 1
-	for ; index <= size; {
+	for ; index < len(b.tree); {
 		b.tree[index] += v
 		index += index & (-index)
 	}
 }
 
+func (b* BinaryIndexedTree) GetSum(index int) int {
+	sum := 0
+	index = index + 1
+	for ;index > 0; {
+		sum += b.tree[index]
+		index = index - (index & (-index))
+	}
+	return sum
+}
