@@ -7,6 +7,8 @@
 */
 package algorithm
 
+import "errors"
+
 type BinaryIndexedTree struct {
 	tree []int
 }
@@ -35,12 +37,35 @@ func (b* BinaryIndexedTree) UpdateBITree(index int, v int) {
 	}
 }
 
-func (b* BinaryIndexedTree) GetSum(index int) int {
+func (b* BinaryIndexedTree) GetSum(index int) (int, error){
+	if index >= len(b.tree) - 1 || index < 0 {
+		return 0, errors.New("out of tree range")
+	}
 	sum := 0
 	index = index + 1
 	for ;index > 0; {
 		sum += b.tree[index]
 		index = index - (index & (-index))
 	}
-	return sum
+	return sum, nil
+}
+
+/* return [begin, end] */
+func (b* BinaryIndexedTree) GetRange(begin int, end int) (int, error) {
+	if begin > end {
+		return 0, errors.New("begin over end")
+	}
+	if begin == 0 {
+		return b.GetSum(end)
+	}
+	l, e1 := b.GetSum(begin - 1)
+	r, e2 := b.GetSum(end)
+
+	if e1 != nil {
+		return 0, e1
+	} else if e2 != nil {
+		return 0, e2
+	} else {
+		return r - l, nil
+	}
 }
