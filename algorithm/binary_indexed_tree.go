@@ -13,6 +13,10 @@ type BinaryIndexedTree struct {
 	tree []int
 }
 
+/*
+	这个算法需要写一个md来描述一下，特别是 (n + 1)这个部分
+ 	表达的是数组中第几个数，通常意义上来说，我们这个时候描述的是从1开始的
+ */
 func NewBinaryIndexedTree(arr []int) *BinaryIndexedTree {
 	n := len(arr)
 	v := &BinaryIndexedTree{
