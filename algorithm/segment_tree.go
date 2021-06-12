@@ -52,7 +52,7 @@ func (s* STree) Query(l, r int) (int, error) {
 	sum := 0
 	l += s.size
 	r += s.size
-	for ; l < r; {
+	for l < r {
 		if l & 1 == 1 {
 			sum += s.tree[l]
 			l++

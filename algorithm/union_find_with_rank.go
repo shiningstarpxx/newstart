@@ -30,7 +30,7 @@ func NewUnionFindWithRank(n int) *UnionFindWithRank {
 }
 
 func (uf *UnionFindWithRank) Find(x int) int {
-	for ; uf.parent[x] != x; {
+	for uf.parent[x] != x {
 		uf.parent[x] = uf.parent[uf.parent[x]]
 		x = uf.parent[x]
 	}

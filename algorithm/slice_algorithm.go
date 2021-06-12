@@ -16,7 +16,7 @@ which has a value greater than ‘val’.
 */
 func UppperBound(arr []int, target int) int {
 	l, r := 0, len(arr)
-	for ; l < r; {
+	for l < r {
 		mid := l + (r-l)/2
 		if arr[mid] > target {
 			r = mid
