@@ -39,6 +39,10 @@ func (this *NumArray) Update(index int, val int)  {
 }
 
 
+/*
+ 	for this game, [left, right] will be added together
+	a little different from basic algorithm [left, right)
+ */
 func (this *NumArray) SumRange(left int, right int) int {
 	sum := 0
 	l := this.size + left
