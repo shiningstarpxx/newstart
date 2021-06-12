@@ -39,7 +39,7 @@ func (s* STree) UpdateTreeNode(index, value int) {
 	s.tree[index] = value
 
 	for i := index; i > 1; i >>= 1 {
-		s.tree[i >> 1] = s.tree[i] + s.tree[i ^ 1];
+		s.tree[i >> 1] = s.tree[i] + s.tree[i ^ 1]
 	}
 }
 
