@@ -20,4 +20,10 @@ func main()  {
 			fmt.Printf("%v\n", v[0]-'a')
 		}
 	}
+
+	nums := []int{1, 2, 3, 4, 5}
+	l := nums[:3]
+	r := nums[3:]
+	fmt.Printf("%v\n", l)
+	fmt.Printf("%v\n", r)
 }
