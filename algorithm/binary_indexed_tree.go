@@ -33,6 +33,13 @@ func NewBinaryIndexedTree(arr []int) *BinaryIndexedTree {
 	return v
 }
 
+func NewBinaryIndexedTreeWithSize(size int) *BinaryIndexedTree  {
+	v := &BinaryIndexedTree{
+		tree: make([]int, size + 1),
+	}
+	return v
+}
+
 func (b* BinaryIndexedTree) UpdateBITree(index int, v int) {
 	index = index + 1
 	for ; index < len(b.tree); {
