@@ -27,8 +27,10 @@ func countSmallerWithBIT(nums []int) []int {
 
 	res := make([]int, len(nums))
 	for i, v := range nums {
+		// find smaller than this one and count sum
 		sum, _ := bit.GetSum(cache[v] - 1)
 		res[i] += sum
+		// update current value sum
 		bit.UpdateBITree(cache[v], 1)
 	}
 	reverseSlice(res)
