@@ -8,7 +8,7 @@
 package example
 
 func reversePairsDC(nums []int) int {
-	return reversePairsHelper(nums, 0, len(nums))
+	return reversePairsHelper(nums, 0, len(nums) - 1)
 }
 
 func reversePairsHelper(nums []int, l, r int) int {
@@ -19,13 +19,38 @@ func reversePairsHelper(nums []int, l, r int) int {
 	mid := l + (r - l) / 2
 	ret := reversePairsHelper(nums, l, mid) + reversePairsHelper(nums, mid + 1, r)
 
-	// after divide, the left and right are sorted
-	for i := l; i <= mid; i++ {
-		arr := nums[mid + 1: r + 1]
-		index := UppperBound(arr, nums[i] / 2)
-		ret += index - (r - mid)
+	i, ll, rr := 0, l, mid + 1
+	for ll <= mid && rr <= r {
+		if nums[ll] > 2 * nums[rr] {
+			ret += mid - ll + 1
+			rr++
+		} else {
+			ll++
+		}
 	}
 
+	// merge
+	sorted := make([]int, r - l + 1)
+	i, ll, rr = 0, l, mid + 1
+	for ll <= mid || rr <= r {
+		if ll > mid {
+			sorted[i] = nums[rr]
+			rr++
+		} else if rr > r {
+			sorted[i] = nums[ll]
+			ll++
+		} else if nums[ll] <= nums[rr] {
+			sorted[i] = nums[ll]
+			ll++
+		} else {
+			sorted[i] = nums[rr]
+			rr++
+		}
+		i++
+	}
+	for i := 0; i < len(sorted); i++ {
+		nums[i + l] = sorted[i]
+	}
 	return ret
 }
 
@@ -40,24 +65,4 @@ func UppperBound(arr []int, target int) int {
 		}
 	}
 	return r
-}
-
-func Merge2(l, r []int) []int {
-	ret := make([]int, 0, len(l) + len(r))
-	for len(l) > 0 || len(r) > 0 {
-		if len(l) == 0 {
-			return append(ret, r...)
-		}
-		if len(r) == 0 {
-			return append(ret, l...)
-		}
-		if l[0] <= r[0] {
-			ret = append(ret, l[0])
-			l = l[1:]
-		} else {
-			ret = append(ret, r[0])
-			r = r[1:]
-		}
-	}
-	return ret
 }
