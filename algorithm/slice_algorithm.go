@@ -7,6 +7,8 @@
 */
 package algorithm
 
+import "reflect"
+
 // TODO(michael): In C++, upper_bound or lower_bound is generic function for all kinds type,
 // also support self-defined type. We Would like to implement suck kinds of algorithms for golang
 
@@ -42,4 +44,15 @@ func LowerBound(arr []int, target int) int {
 		}
 	}
 	return r
+}
+
+/*
+Assume the input is array type
+ */
+func reverseAnyArray(s interface{}) {
+	n := reflect.ValueOf(s).Len()
+	swap := reflect.Swapper(s)
+	for i, j := 0, n-1; i < j; i, j = i+1, j-1 {
+		swap(i, j)
+	}
 }
