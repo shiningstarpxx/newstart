@@ -33,7 +33,16 @@ func NewSTree(arr []int) *STree {
 	return v
 }
 
-// Update Node value by index
+// NewSTreeBySize Init an empty segment tree
+func NewSTreeBySize(size int) *STree {
+	v := &STree{
+		tree : make([]int, size * 2),
+		size : size,
+	}
+	return v
+}
+
+// UpdateTreeNode Update Node value by index
 func (s* STree) UpdateTreeNode(index, value int) {
 	index = index + s.size
 	s.tree[index] = value
@@ -43,9 +52,9 @@ func (s* STree) UpdateTreeNode(index, value int) {
 	}
 }
 
-// Calc Sum in range [l, r) by index
+// Query Calc Sum in range [l, r) by index
 func (s* STree) Query(l, r int) (int, error) {
-	if l < 0 || r < 0 || l >= s.size || r >= s.size {
+	if l < 0 || r < 0 || l >= s.size || r > s.size {
 		return 0, errors.New("out of Range")
 	}
 

@@ -50,3 +50,41 @@ func TestNewSTree(t *testing.T) {
 		})
 	}
 }
+
+func TestNewSTreeBySize(t *testing.T) {
+	type args struct {
+		arr int
+	}
+	tests := []struct {
+		name string
+		args args
+		want *STree
+	}{
+		// TODO: Add test cases.
+		{
+			name: "Segment Tree",
+			args: args{
+				arr: 10,
+			},
+			want: nil,
+		},
+
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := NewSTreeBySize(tt.args.arr); !reflect.DeepEqual(got, tt.want) {
+				a := assert.New(t)
+				v, e := got.Query(1, 3)
+				a.Nil(e)
+				a.Equal(0, v)
+
+				got.UpdateTreeNode(2, 1)
+				v, e = got.Query(1, 3)
+				a.Nil(e)
+				a.Equal(1, v)
+			} else {
+				t.Errorf("NewSTree() = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
