@@ -14,5 +14,9 @@
 1. 一开始可以先不追求性能，重点是问题的解决
 2. 可能需要花费比较大的精力来画图
 
+## Why python code also include
+不同的语言有不同的感受，可以更好的理解不同的设计哲学
+
 #### Reference
 可以参考的还不错的
+1. [小明](https://maxming0.github.io)
