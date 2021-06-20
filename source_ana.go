@@ -7,11 +7,12 @@
 */
 package main
 
-
 import (
-"errors"
-"fmt"
-"sort"
+	"errors"
+	"fmt"
+	"sort"
+
+	"mic_test/algorithm/example"
 )
 
 type BinaryIndexedTree struct {
@@ -76,6 +77,10 @@ func reverseSlice(s []int) {
 }
 
 func main() {
+	num := []int{1,3,3,3,2,4,2,1,2}
+	r := example.CreateSortedArrayST(num)
+	fmt.Printf("%v\n", r)
+	/*
 	t := []int {5, 2, 6, 1}
 	r := countSmallerBIT(t)
 	fmt.Println(r)
@@ -83,6 +88,8 @@ func main() {
 	t1 := []int {-1, -1}
 	r = countSmallerBIT(t1)
 	fmt.Println(r)
+	*/
+
 	/*
 	lastAccess := expvar.NewString("lastAccess")
 	http.HandleFunc("/", func(w http.ResponseWriter, req *http.Request) {

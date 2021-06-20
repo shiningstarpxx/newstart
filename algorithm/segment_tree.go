@@ -39,6 +39,10 @@ func NewSTreeBySize(size int) *STree {
 		tree : make([]int, size * 2),
 		size : size,
 	}
+	// insert leaf node in tree
+	for i := 0; i < size; i++ {
+		v.tree[size + i] = 0
+	}
 	return v
 }
 

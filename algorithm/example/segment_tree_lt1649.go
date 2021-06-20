@@ -8,9 +8,16 @@
 package example
 
 import (
+	"fmt"
 	"sort"
 )
 
+const (
+	STNumRange = 100000 + 1
+	StMod = 1e9+7
+)
+
+// CreateSortedArrayST
 /*
 example : [1 5 6 2]
 1. create sorted array [1 2 5 6]
@@ -20,7 +27,7 @@ example : [1 5 6 2]
 	3.2 min(smaller, bigger)
     3.3 add(index, 1)
  */
-func createSortedArrayST(instructions []int) int {
+func CreateSortedArrayST(instructions []int) int {
 	sorted := make([]int, len(instructions))
 	copy(sorted, instructions)
 	sort.Ints(sorted)
@@ -35,12 +42,15 @@ func createSortedArrayST(instructions []int) int {
 	}
 
 	ret := 0
-	tree := NewSTreeBySize(index + 1)
+	tree := NewSTreeBySize(index)
 	for _, v := range instructions {
+		// tree.Print()
 		pivot := cache[v]
-		smaller := tree.Query(0, pivot - 1)
-		bigger := tree.Query(pivot + 1, index + 1)
+		smaller := tree.Query(0, pivot)
+		bigger := tree.Query(pivot + 1, index)
+		fmt.Printf("%d, %d\n", smaller, bigger)
 		ret += min1649(smaller, bigger)
+		ret %= StMod
 		tree.UpdateTreeNode(pivot, 1)
 	}
 	return ret
@@ -64,13 +74,17 @@ func NewSTreeBySize(size int) *STree {
 		tree : make([]int, size * 2),
 		size : size,
 	}
+	for i := 0; i < 2 * size; i++ {
+		v.tree[i] = 0
+	}
+	fmt.Printf("%v\n", v.tree)
 	return v
 }
 
 // UpdateTreeNode Update Node value by index
 func (s* STree) UpdateTreeNode(index, value int) {
 	index = index + s.size
-	s.tree[index] = value
+	s.tree[index] += value
 
 	for i := index; i > 1; i >>= 1 {
 		s.tree[i >> 1] = s.tree[i] + s.tree[i ^ 1]
@@ -95,4 +109,8 @@ func (s* STree) Query(l, r int) int {
 		r >>= 1
 	}
 	return sum
+}
+
+func (s* STree) Print() {
+	fmt.Printf("%v, %d\n", s.tree, len(s.tree))
 }
