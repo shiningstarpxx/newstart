@@ -7,7 +7,10 @@
 */
 package algorithm
 
-import "math"
+import (
+	"fmt"
+	"math"
+)
 
 func maximalSquare(matrix [][]byte) int {
 	m := len(matrix)
@@ -24,14 +27,15 @@ func maximalSquare(matrix [][]byte) int {
 	res := 0
 	for i := 0; i < m; i++ {
 		for j := 0; j < n; j++ {
-			dp[i][j] = int(matrix[i][j] - '0')
-			if dp[i][j] == 0 {
+			if matrix[i][j] == '0' {
 				continue;
 			}
+			dp[i][j] = 1
 			if i != 0 && j != 0 {
 				dp[i][j] = int(math.Min(float64(dp[i-1][j-1]), math.Min(float64(dp[i-1][j]), float64(dp[i][j-1])))) + 1
 			}
 			res = int(math.Max(float64(res), float64(dp[i][j] * dp[i][j])))
+			fmt.Printf("%v\n", dp)
 		}
 	}
 	return res
