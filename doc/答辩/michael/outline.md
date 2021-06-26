@@ -30,7 +30,7 @@
 
 1. 消息服务优化
    1. 问题：
-   2. 材料：
+   2. 材料：https://app.diagrams.net/#G1Nu2LFGhKsH89PxDm6fiLM6lhISldd2AV
 2. 会话服务优化
    1. 问题：
    2. 材料：
