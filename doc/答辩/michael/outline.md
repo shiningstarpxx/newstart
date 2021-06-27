@@ -10,10 +10,22 @@
 
 1. 云原生的微服务架构
    1. 给一版初始的架构 (grpc直接暴露是否合适？)
-   2. 重点讲的还是event log
+   2. 重点讲的还是event log 
       1. DTS - cache 的引入
+      
       2. 业务指标监控 - 洞察
+      
       3. 业务event 引入
+      
+         参考资料
+      
+         之前自己翻译的那个...
+      
+         [linked-in-first](https://www.linkedin.com/pulse/microservice-communication-arpit-jain)
+      
+         [confluent](https://www.slideshare.net/ConfluentInc/eventdriven-model-serving-stream-processing-vs-rpc-with-kafka-and-tensorflow-kai-waehner-confluent-kafka-summit-sf-2019-179256721)
+      
+         [medium](https://supunbhagya.medium.com/request-driven-vs-event-driven-microservices-7b1fe40dccde)
    3. 可观测
       1. metrics 监控
       2. cls
@@ -109,15 +121,15 @@
 ##### 云原生	
 
 	1. 现存问题：     
- 	2. 未来方向：
+	2. 未来方向：
 
 ##### 容灾
 
  	1. 服务分级   	
-      	1. 分级理论： 
-           	1. 实时                
-           	2. 非实时
-      	2. 熔断保护
+ 	  	1. 分级理论： 
+ 	       	1. 实时                
+ 	       	2. 非实时
+ 	  	2. 熔断保护
 
 ##### 安全
 
@@ -156,7 +168,7 @@
 #### 灵魂深处的问题
 
 	1. 微服务的技术难点有哪些
- 	2. 本质上，微服务不是设计问题？而是由于云原生，以及devopos带来的必然趋势？
+	2. 本质上，微服务不是设计问题？而是由于云原生，以及devopos带来的必然趋势？
 
 #### Reference
 
