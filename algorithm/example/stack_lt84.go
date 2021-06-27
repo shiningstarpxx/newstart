@@ -5,7 +5,7 @@
    @Email: xingxinpei@gmail, michaelpei@tencent.com
    @Description:
 */
-package algorithm
+package example
 
 import (
 	"fmt"

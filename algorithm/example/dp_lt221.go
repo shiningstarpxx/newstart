@@ -5,12 +5,14 @@
    @Email: xingxinpei@gmail, michaelpei@tencent.com
    @Description:
 */
-package algorithm
+package example
 
 import (
 	"fmt"
 	"math"
 )
+
+/* http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-221-maximal-square/ */
 
 func maximalSquare(matrix [][]byte) int {
 	m := len(matrix)

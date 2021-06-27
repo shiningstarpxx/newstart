@@ -12,6 +12,8 @@ import (
 	"sort"
 )
 
+/* https://zxi.mytechroad.com/blog/algorithms/array/leetcode-315-count-of-smaller-numbers-after-self/ */
+
 func countSmallerWithBIT(nums []int) []int {
 	sorted := make([]int, len(nums))
 	copy(sorted, nums)
