@@ -26,6 +26,13 @@ func Test_numTilings(t *testing.T) {
 			},
 			want: 5,
 		},
+		{
+			name : "over flow",
+			args: args{
+				n : 30,
+			},
+			want: 312342182,  // 9312342245
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
