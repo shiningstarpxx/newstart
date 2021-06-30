@@ -118,3 +118,18 @@ func TestMMaxHeap(t *testing.T) {
 	a.Equal(1, heap.Pop(h).(int))
 	a.Equal(0, h.Len())
 }
+
+func TestMMaxHeapNegtive(t *testing.T) {
+	h := &MaxHeap{-2, -1, -5}
+	heap.Init(h)
+	heap.Push(h, -3)
+
+	a := assert.New(t)
+	a.Equal(-1, (*h)[0])
+	a.Equal(4, h.Len())
+	a.Equal(-1, heap.Pop(h).(int))
+	a.Equal(-2, heap.Pop(h).(int))
+	a.Equal(-3, heap.Pop(h).(int))
+	a.Equal(-5, heap.Pop(h).(int))
+	a.Equal(0, h.Len())
+}

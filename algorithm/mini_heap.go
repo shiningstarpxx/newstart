@@ -6,6 +6,8 @@
  */
 package algorithm
 
+import "fmt"
+
 // An IntHeap is a min-heap of ints.
 // 迫于没有模板，但是平常的算法解释说明都是
 
@@ -19,9 +21,12 @@ func (h *MiniHeap) Push(x interface{}) {
 	// Push and Pop use pointer receivers because they modify the slice's length,
 	// not just its contents.
 	*h = append(*h, x.(int))
+	fmt.Printf("+++++++++++ %v\n", *h)
+
 }
 
 func (h *MiniHeap) Pop() interface{} {
+	fmt.Printf("******** %v\n", *h)
 	old := *h
 	n := len(old)
 	x := old[n-1]

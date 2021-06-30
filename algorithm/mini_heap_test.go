@@ -7,8 +7,8 @@
 package algorithm
 
 import (
-	"github.com/stretchr/testify/assert"
 	"container/heap"
+	"github.com/stretchr/testify/assert"
 	"reflect"
 	"testing"
 )
@@ -118,6 +118,7 @@ func TestMiniHeap(t *testing.T) {
 	a.Equal(1, (*h)[0])
 	a.Equal(4, h.Len())
 	a.Equal(1, heap.Pop(h).(int))
+	a.Equal(2, (*h)[0])
 	a.Equal(2, heap.Pop(h).(int))
 	a.Equal(3, heap.Pop(h).(int))
 	a.Equal(5, heap.Pop(h).(int))
