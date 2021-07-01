@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"sort"
 
-	"mic_test/algorithm/example"
+	"mic_test/algorithm/leetcode"
 )
 
 type BinaryIndexedTree struct {
@@ -78,7 +78,7 @@ func reverseSlice(s []int) {
 
 func main() {
 	num := []int{1,3,3,3,2,4,2,1,2}
-	r := example.CreateSortedArrayST(num)
+	r := leetcode.CreateSortedArrayST(num)
 	fmt.Printf("%v\n", r)
 	/*
 	t := []int {5, 2, 6, 1}
