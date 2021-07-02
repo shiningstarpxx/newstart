@@ -8,43 +8,60 @@
 package leetcode
 
 func removeInvalidParentheses(s string) []string {
-	r := dfs(s, 0, 0, 0, "")
-	return remove(r)
+	l, r := countInvalid(s)
+	res := dfs(s, 0, l, r, "")
+	return res
+}
+
+func countInvalid(s string) (int, int) {
+	l, r := 0, 0
+	for i := range s {
+		if s[i] == '(' {
+			l++
+		} else if s[i] == ')' {
+			if l > 0 {
+				l--
+			} else {
+				r++
+			}
+		}
+	}
+	return l, r
 }
 
 func dfs(s string, index, left, right int, r string) []string {
 	if index == len(s) {
-		if left == right {
+		if left == 0 && right == 0 && valid(r) {
 			return []string{r}
-		} else {
-			return []string{}
 		}
+		return []string{}
 	}
+
 	var res []string
-	if s[index] == ')' {
-		res = append(res, dfs(s, index + 1, left, right, r)...)
-		if right < left {
-			res = append(res, dfs(s, index + 1, left, right + 1, string(append([]byte(r), s[index])))...)
+	if s[index] == '(' {
+		if left > 0 {
+			res = append(res, dfs(s, index+1, left-1, right, r)...)
 		}
-	} else if s[index] == '(' {
-		res = append(res, dfs(s, index + 1, left + 1, right, string(append([]byte(r), s[index])))...)
-	} else {
-		res = append(res, dfs(s, index + 1, left, right, string(append([]byte(r), s[index])))...)
+	} else if s[index] == ')' {
+		if right > 0 {
+			res = append(res, dfs(s, index+1, left, right-1, r)...)
+		}
 	}
+	res = append(res, dfs(s, index+1, left, right, string(append([]byte(r), s[index])))...)
 	return res
 }
 
-func remove(r []string) []string {
-	var res []string
-	m := make(map[string]int, len(r))
-	for _, v := range r {
-		if _, ok := m[v]; !ok {
-			res = append(res, v)
-			m[v] = 1
+func valid(s string) bool {
+	l := 0
+	for _, v := range s {
+		if v == '(' {
+			l++
+		} else if v == ')' {
+			l--
+			if l < 0 {
+				return false
+			}
 		}
 	}
-	if len(res) == 0 {
-		res = append(res, "")
-	}
-	return res
+	return l == 0
 }
