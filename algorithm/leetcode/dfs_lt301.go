@@ -10,7 +10,7 @@ package leetcode
 func removeInvalidParentheses(s string) []string {
 	l, r := countInvalid(s)
 	res := dfs(s, 0, l, r, "")
-	return res
+	return removeRedundant(res)
 }
 
 func countInvalid(s string) (int, int) {
@@ -64,4 +64,16 @@ func valid(s string) bool {
 		}
 	}
 	return l == 0
+}
+
+func removeRedundant(s []string) []string {
+	var res []string
+	m := make(map[string]int, len(s))
+	for _, v := range s {
+		if _, ok := m[v]; !ok {
+			m[v] = 1
+			res = append(res, v)
+		}
+	}
+	return res
 }

@@ -23,6 +23,13 @@ func Test_removeInvalidParentheses(t *testing.T) {
 	}{
 		// TODO: Add test cases.
 		{
+			"first case",
+			args{
+				"()())()",
+			},
+			[]string{"(())()", "()()()"},
+		},
+		{
 			"edge case",
 			args{
 				")(",
