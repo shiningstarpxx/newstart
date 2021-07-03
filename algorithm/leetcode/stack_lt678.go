@@ -39,3 +39,28 @@ func stackCheck(s string) bool {
 	}
 	return len(left) == 0
 }
+
+func greedyCheck(s string) bool {
+	// l, r表示「可能多余的左括号」，一个下界，一个上界，很直观。执行起来就是
+	l, r := 0, 0
+	for i := range s {
+		if s[i] == '(' {
+			l++
+			r++
+		} else if s[i] == ')' {
+			if l > 0 {
+				l--
+			}
+			r--
+		} else {
+			if l > 0 {
+				l--
+			}
+			r++
+		}
+		if r < 0{
+			return false
+		}
+	}
+	return l == 0
+}

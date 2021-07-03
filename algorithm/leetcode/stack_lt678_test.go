@@ -55,3 +55,44 @@ func Test_stackCheck(t *testing.T) {
 		})
 	}
 }
+
+func Test_greedyCheck(t *testing.T) {
+	type args struct {
+		s string
+	}
+	tests := []struct {
+		name string
+		args args
+		want bool
+	}{
+		// TODO: Add test cases.
+		{
+			"simple test",
+			args{
+				"()",
+			},
+			true,
+		},
+		{
+			"edge case",
+			args{
+				"(*))",
+			},
+			true,
+		},
+		{
+			"edge case 2",
+			args{
+				"(((((*(()((((*((**(((()()*)()()()*((((**)())*)*)))))))(())(()))())((*()()(((()((()*(())*(()**)()(())",
+			},
+			false,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := greedyCheck(tt.args.s); got != tt.want {
+				t.Errorf("greedyCheck() = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
