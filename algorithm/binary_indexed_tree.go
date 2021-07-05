@@ -24,7 +24,7 @@ func NewBinaryIndexedTree(arr []int) *BinaryIndexedTree {
 	}
 
 	for i := 1; i <= n; i++ {
-		v.tree[i] = 0;
+		v.tree[i] = 0
 	}
 
 	for i := 0; i < n; i++ {

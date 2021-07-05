@@ -45,7 +45,7 @@ func (b* BinaryIndexedTree1649) UpdateBITree(index int, v int) {
 	}
 }
 
-func (b* BinaryIndexedTree1649) GetSum(index int) (int){
+func (b* BinaryIndexedTree1649) GetSum(index int) int {
 	sum := 0
 	index = index + 1
 	for ;index > 0; {

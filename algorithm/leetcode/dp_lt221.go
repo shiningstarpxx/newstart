@@ -30,7 +30,7 @@ func maximalSquare(matrix [][]byte) int {
 	for i := 0; i < m; i++ {
 		for j := 0; j < n; j++ {
 			if matrix[i][j] == '0' {
-				continue;
+				continue
 			}
 			dp[i][j] = 1
 			if i != 0 && j != 0 {

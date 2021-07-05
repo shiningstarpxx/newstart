@@ -40,7 +40,7 @@ func findCircleNum(isConnected [][]int) int {
 	v := algorithm.NewUnionFind(n)
 	for i := 0; i < n; i++ {
 		for j := 0; j < n; j++ {
-			if (isConnected[i][j] == 1) {
+			if isConnected[i][j] == 1 {
 				v.Union(i, j)
 			}
 		}

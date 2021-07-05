@@ -37,7 +37,7 @@ func countRangeSumHelper(sum []int, lower, upper, l, r int) int {
 		for rr <= r && sum[rr] - sum[pivot] <= upper {
 			rr++
 		}
-		res += (rr -rl)
+		res += rr -rl
 	}
 
 	// todo(michael): Try to express with more elegant way

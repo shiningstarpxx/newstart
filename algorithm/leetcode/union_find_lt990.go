@@ -64,7 +64,7 @@ func equationsPossible(equations []string) bool {
 			}
 		}
 	}
-	return true;
+	return true
 }
 
 func equationsPossibleV1(equations []string) bool {
@@ -87,7 +87,7 @@ func equationsPossibleV1(equations []string) bool {
 			return false
 		}
 	}
-	return true;
+	return true
 }
 
 /*
