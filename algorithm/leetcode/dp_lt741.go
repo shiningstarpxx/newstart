@@ -29,7 +29,8 @@ func cherryPickup(grid [][]int) int {
 func dfsWithMemory(grid [][]int, x1, y1, x2 int, c *[][][]int) int {
 	// 边界情况
 	y2 := x1 + y1 - x2
-	if x1 >= len(grid) || y1 >= len(grid) || x2 >= len(grid) || y2 >= len(grid) || grid[x1][y1] == -1 || grid[x2][y2] == -1 {
+	if x1 >= len(grid) || y1 >= len(grid) || x2 >= len(grid) || y2 >= len(grid) ||
+		grid[x1][y1] == -1 || grid[x2][y2] == -1 {
 		return -1
 	}
 	// 合法终止
@@ -41,7 +42,8 @@ func dfsWithMemory(grid [][]int, x1, y1, x2 int, c *[][][]int) int {
 		return (*c)[x1][y1][x2]
 	}
 
-	res := int(math.Max(math.Max(float64(dfsWithMemory(grid, x1+1, y1, x2, c)), float64(dfsWithMemory(grid, x1, y1+1, x2, c))),
+	res := int(math.Max(
+		math.Max(float64(dfsWithMemory(grid, x1+1, y1, x2, c)), float64(dfsWithMemory(grid, x1, y1+1, x2, c))),
 		math.Max(float64(dfsWithMemory(grid, x1+1, y1, x2+1, c)), float64(dfsWithMemory(grid, x1, y1+1, x2+1, c)))))
 	// 这条路径不行
 	if res < 0 {
