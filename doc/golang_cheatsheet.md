@@ -2,6 +2,27 @@
 
 
 
+##### array part
+
+**如何创建一个三维数组（二维数组也是类似的）**
+
+```go
+
+	tiles := make([][][]int, n)
+
+	for i := range tiles {
+		tiles[i] = make([][]int, n)
+		for j := range tiles[i] {
+			tiles[i][j] = make([]int, n)
+			for k := range tiles[i][j] {
+				tiles[i][j][k] = math.MinInt8
+			}
+		}
+	}
+```
+
+
+
 ##### SLICE PART
 
 **SLICE 置空**

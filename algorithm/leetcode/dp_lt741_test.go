@@ -28,6 +28,17 @@ func Test_cherryPickup(t *testing.T) {
 				},
 			},
 			5,
+		}, // [[1,1,-1],[1,-1,1],[-1,1,1]]
+		{
+			"negative test",
+			args{
+				[][]int{
+					{1, 1, -1},
+					{1, -1, 1},
+					{-1, 1, 1},
+				},
+			},
+			0,
 		},
 	}
 	for _, tt := range tests {

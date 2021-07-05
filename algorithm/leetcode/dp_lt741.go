@@ -23,7 +23,7 @@ func cherryPickup(grid [][]int) int {
 		}
 	}
 
-	return dfsWithMemory(grid, 0, 0, 0, &tiles)
+	return int(math.Max(float64(dfsWithMemory(grid, 0, 0, 0, &tiles)), float64(0)))
 }
 
 func dfsWithMemory(grid [][]int, x1, y1, x2 int, c *[][][]int) int {
