@@ -52,7 +52,7 @@ func coinChangeDFS(coins []int, amount int) int {
 }
 
 func cddfs(coins []int, index int, amount, use, ans int) int {
-	if index == len(coins) - 1 {
+	if index == len(coins) - 1 || amount == 0 {
 		if amount % coins[index] == 0 {
 			return amount / coins[index] + use
 		}
