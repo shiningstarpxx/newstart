@@ -43,7 +43,7 @@ equations[i][2] 是 '='
  */
 
 import (
-	"mic_test/algorithm"
+	"mic_test/algorithm/slice"
 	"strings"
 )
 

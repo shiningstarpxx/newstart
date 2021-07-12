@@ -8,7 +8,7 @@ package leetcode
 
 import (
 	"container/heap"
-	al "mic_test/algorithm"
+	al "mic_test/algorithm/slice"
 )
 
 type MedianFinder struct {

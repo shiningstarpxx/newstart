@@ -32,7 +32,7 @@ isConnected[i][j] == isConnected[j][i]
  */
 
 import (
-	"mic_test/algorithm"
+	"mic_test/algorithm/slice"
 )
 
 func findCircleNum(isConnected [][]int) int {

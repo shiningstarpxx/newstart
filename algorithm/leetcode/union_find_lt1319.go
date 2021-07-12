@@ -48,7 +48,7 @@ connections[i][0] != connections[i][1]
 package leetcode
 
 import (
-	alg "mic_test/algorithm"
+	alg "mic_test/algorithm/slice"
 )
 
 func makeConnected(n int, connections [][]int) int {

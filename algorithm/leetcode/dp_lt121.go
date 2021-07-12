@@ -7,6 +7,19 @@
 */
 package leetcode
 
+import "math"
+
 func maxProfit(prices []int) int {
-	return 0
+	if len(prices) <= 1 {
+		return 0
+	}
+
+	minPrice := prices[0]  // till pre-day min price
+	maxPrice := 0  // till today, most value
+
+	for i := 1; i < len(prices); i++ {
+		maxPrice = int(math.Max(float64(prices[i] - minPrice), float64(maxPrice)))
+		minPrice = int(math.Min(float64(prices[i]), float64(minPrice)))
+	}
+	return maxPrice
 }
