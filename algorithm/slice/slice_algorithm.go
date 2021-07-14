@@ -7,7 +7,11 @@
 */
 package algorithm
 
-import "reflect"
+import (
+	"fmt"
+	"reflect"
+	"sort"
+)
 
 // TODO(michael): In C++, upper_bound or lower_bound is generic function for all kinds type,
 // also support self-defined type. We Would like to implement suck kinds of algorithms for golang
@@ -55,4 +59,13 @@ func reverseAnyArray(s interface{}) {
 	for i, j := 0, n-1; i < j; i, j = i+1, j-1 {
 		swap(i, j)
 	}
+}
+
+func sliceLowerBound(arr []int, target int) int {
+	rec := append(sort.IntSlice(nil), arr...)
+	fmt.Printf("before sort %v\n", rec)
+	rec.Sort()
+	fmt.Printf("after sort %v\n", rec)
+	res := rec.Search(target)
+	return res
 }

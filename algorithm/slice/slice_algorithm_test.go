@@ -66,3 +66,32 @@ func TestUppperBound(t *testing.T) {
 		})
 	}
 }
+
+func Test_sliceLowerBound(t *testing.T) {
+	type args struct {
+		arr    []int
+		target int
+	}
+	tests := []struct {
+		name string
+		args args
+		want int
+	}{
+		// TODO: Add test cases.
+		{
+			"simple case",
+			args{
+				[]int{5, 27, 23, 234,32,423, 23234,23,2,34,23,23,4,234},
+				6,
+			},
+			3,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := sliceLowerBound(tt.args.arr, tt.args.target); got != tt.want {
+				t.Errorf("sliceLowerBound() = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}

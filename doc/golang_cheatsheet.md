@@ -70,6 +70,21 @@ Hello, playground
 */
 ```
 
+**LowerBound**
+
+一直以为golang里没有特别好的数据结构和算法库，比如sort，lowerbound，但是今天惊奇的发现，竟然有。但是由于没有模板的原因，目前没有看到非int的对应算法能力
+
+```golang
+func sliceLowerBound(arr []int, target int) int {
+	rec := append(sort.IntSlice(nil), arr...)
+	fmt.Printf("before sort %v\n", rec)
+	rec.Sort()
+	fmt.Printf("after sort %v\n", rec)
+	res := rec.Search(target)  // 等同于lowerbound
+	return res
+}
+```
+
 
 
 ##### 字符串相关
