@@ -20,6 +20,7 @@
          参考资料
       
          之前自己翻译的那个...
+      4. saga 模式?? 这个应该也可以重点讲
       
          [linked-in-first](https://www.linkedin.com/pulse/microservice-communication-arpit-jain)
       
