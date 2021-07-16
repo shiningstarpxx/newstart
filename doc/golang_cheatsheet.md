@@ -80,7 +80,7 @@ func sliceLowerBound(arr []int, target int) int {
 	fmt.Printf("before sort %v\n", rec)
 	rec.Sort()
 	fmt.Printf("after sort %v\n", rec)
-	res := rec.Search(target)  // 等同于lowerbound
+	res := rec.Search(target)  // 等同于lowerbound                                                                                                                                                                                                 
 	return res
 }
 ```
