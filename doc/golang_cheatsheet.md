@@ -87,6 +87,57 @@ func sliceLowerBound(arr []int, target int) int {
 
 
 
+**排序相关**
+
+在c++里有经典的排序算法，golang里也逐步熟悉了它的排序，也基本上是lambda表达式的对比.  下面先看一下C++, 然后看一下golang的
+
+```c++
+int main()
+{
+    std::array<int, 10> s = {5, 7, 4, 2, 8, 6, 1, 9, 0, 3};
+ 
+    auto print = [&s](std::string_view const rem) {
+        for (auto a : s) {
+            std::cout << a << ' ';
+        }
+        std::cout << ": " << rem << '\n';
+    };
+ 
+    std::sort(s.begin(), s.end());
+    print("sorted with the default operator<");
+ 
+    std::sort(s.begin(), s.end(), std::greater<int>());
+    print("sorted with the standard library compare function object");
+ 
+    struct {
+        bool operator()(int a, int b) const { return a < b; }
+    } customLess;
+    std::sort(s.begin(), s.end(), customLess);
+    print("sorted with a custom function object");
+ 
+    std::sort(s.begin(), s.end(), [](int a, int b) {
+        return a > b;
+    });
+    print("sorted with a lambda expression");
+}
+```
+
+```go
+	type pair struct {
+		atom string
+		num  int
+	}
+	pairs := make([]pair, 0, len(c))
+	for k, v := range c {
+		pairs = append(pairs, pair{k, v})
+	}
+	sort.Slice(pairs, func(i, j int) bool { return pairs[i].atom < pairs[j].atom })
+```
+
+
+
+
+
 ##### 字符串相关
 
 
@@ -101,7 +152,19 @@ func sliceLowerBound(arr []int, target int) int {
 ```go
 import "unicode"
 import "fmt"
+
+r := rune(s[i])
 fmt.Println(unicode.IsDigit(r))
 fmt.Println(unicode.IsNumber(r))
+```
+
+```c++
+#include <cctype>
+
+std::islower();
+std::isupper();
+std::isnumber();
+std::isalpha();
+std::isalnum();
 ```
 
