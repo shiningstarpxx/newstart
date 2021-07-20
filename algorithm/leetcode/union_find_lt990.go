@@ -43,7 +43,7 @@ equations[i][2] 是 '='
  */
 
 import (
-	"mic_test/algorithm/slice"
+	"golang_source_analyses/algorithm/slice"
 	"strings"
 )
 

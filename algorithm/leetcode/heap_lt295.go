@@ -8,7 +8,7 @@ package leetcode
 
 import (
 	"container/heap"
-	al "mic_test/algorithm/slice"
+	al "golang_source_analyses/algorithm/slice"
 )
 
 type MedianFinder struct {
