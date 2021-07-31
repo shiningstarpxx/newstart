@@ -8,6 +8,7 @@
  */
 package leetcode
 
+// todo(michael): 增加一个能力，从任意一个节点遍历整个树，只走一次
 func distanceK(root *TreeNode, target *TreeNode, k int) []int {
 	cache := map[int]*TreeNode{}
 	ans := []int{}

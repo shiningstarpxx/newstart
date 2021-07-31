@@ -48,6 +48,7 @@ func Test_verticalTraversal(t *testing.T) {
 		[][]int{{9},{3,15},{20},{7}},
 		},
 		// [1,2,3,4,6,5,7] base case
+		// todo(michael): add base
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
