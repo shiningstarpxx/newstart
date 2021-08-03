@@ -18,7 +18,6 @@ func Test_hIndex(t *testing.T) {
 		args args
 		want int
 	}{
-		// TODO: Add test cases.
 		{
 			"simple test",
 			args{

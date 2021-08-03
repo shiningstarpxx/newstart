@@ -10,6 +10,7 @@ package leetcode
 
 import "math"
 
+// todo(michael): 代码应该做一次重构
 func networkDelayTime(times [][]int, n int, k int) int {
 	g := make([][]int, n)
 	for i := range g {

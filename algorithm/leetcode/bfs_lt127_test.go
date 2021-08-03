@@ -22,7 +22,6 @@ func Test_ladderLength(t *testing.T) {
 		args args
 		want int
 	}{
-		// TODO: Add test cases.
 		{
 			name : "simple test",
 			args : args{
