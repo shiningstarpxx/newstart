@@ -8,6 +8,9 @@
  */
 package leetcode
 
+// pair[x][y] , pair[u][v]
+// x 与 u 的亲近程度胜过 x 与 y，   (index[x][u] < index[x][y])
+// u 与 x 的亲近程度胜过 u 与 v     (index[u][x] < index[u][v]
 func unhappyFriends(n int, preferences [][]int, pairs [][]int) int {
 	index := make([][]int, n)
 	for i := range index {
