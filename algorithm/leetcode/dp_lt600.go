@@ -19,7 +19,6 @@ func findIntegers(n int) int {
 	res, pre := 0, 0
 	for i := 29; i >= 0; i-- {
 		if n & (1 << i) != 0 {
-
 			res += dp[i + 1]
 			n -= (1<<i)
 			if pre == 1 {

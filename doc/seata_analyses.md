@@ -29,6 +29,25 @@
 
 ##### impl
 
+这里是state machine实现的地方，整体来说，代码写的是比较流畅的，不过单体函数过长，单个文件过大，不确定java的风格是否就是这样。下面重点看看几个核心的函数
+
+* 第一个是启动函数
+
+```java
+private StateMachineInstance startInternal(String stateMachineName, String tenantId, String businessKey,
+                                               Map<String, Object> startParams, boolean async, AsyncCallback callback)
+            throws EngineExecutionException {
+      ...
+    }
+}
+
+// 
+```
+
+
+
+
+
 ##### invoker
 
 
