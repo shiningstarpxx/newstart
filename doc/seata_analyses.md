@@ -44,9 +44,52 @@ private StateMachineInstance startInternal(String stateMachineName, String tenan
 // 
 ```
 
+* 接下来是创建状态机
+
+  ```java
+  private StateMachineInstance createMachineInstance(String stateMachineName, String tenantId, String businessKey,
+                                                         Map<String, Object> startParams) {
+    
+    //
+  ```
 
 
 
+* 接下来是驱动状态机前进
+
+  ```java
+  protected StateMachineInstance forwardInternal(String stateMachineInstId, Map<String, Object> replaceParams,
+                                                     boolean skip, boolean async, AsyncCallback callback)
+          throws EngineExecutionException {
+  
+  ```
+
+* 如果失败了自然要开始补偿
+
+  ```java
+  public StateMachineInstance compensateInternal(String stateMachineInstId, Map<String, Object> replaceParams,
+                                                     boolean async, AsyncCallback callback)
+          throws EngineExecutionException {
+  
+  ```
+
+* 如果server挂了，能否恢复呢？目前看，有个恢复的接口
+
+  ```java
+   public StateMachineInstance reloadStateMachineInstance(String instId) {
+  
+     // @todo 
+  ```
+
+* 同样，要判断server的状态
+
+  ```java
+   protected boolean checkStatus(StateMachineInstance stateMachineInstance, ExecutionStatus[] acceptStatus,
+                                    ExecutionStatus[] denyStatus, ExecutionStatus status, ExecutionStatus compenStatus,
+                                    String operation) {
+  ```
+
+  
 
 ##### invoker
 
