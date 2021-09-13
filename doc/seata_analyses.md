@@ -93,5 +93,11 @@ private StateMachineInstance startInternal(String stateMachineName, String tenan
 
 ##### invoker
 
+整体是触发子task执行的方法，也支持了异步和同步
 
+```java
+public Object invoke(ServiceTaskState serviceTaskState, Object... input) throws Throwable {
+  
+  //
+```
 
