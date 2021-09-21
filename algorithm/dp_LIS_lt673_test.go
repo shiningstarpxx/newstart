@@ -8,7 +8,10 @@
  */
 package algorithm
 
-import "testing"
+import (
+	"strings"
+	"testing"
+)
 
 func Test_findNumberOfLIS(t *testing.T) {
 	type args struct {
