@@ -6,7 +6,7 @@
  * @Version: 1.0.0
  * @Data: 2021/8/24 3:17 PM
  */
-package algorithm
+package leetcode
 
 import "math"
 

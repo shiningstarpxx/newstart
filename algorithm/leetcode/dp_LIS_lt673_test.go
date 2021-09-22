@@ -6,10 +6,9 @@
  * @Version: 1.0.0
  * @Data: 2021/9/20 5:45 PM
  */
-package algorithm
+package leetcode
 
 import (
-	"strings"
 	"testing"
 )
 

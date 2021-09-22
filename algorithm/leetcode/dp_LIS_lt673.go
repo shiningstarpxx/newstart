@@ -6,7 +6,7 @@
  * @Version: 1.0.0
  * @Data: 2021/9/20 5:35 PM
  */
-package algorithm
+package leetcode
 
 func findNumberOfLIS(nums []int) int {
 	n := len(nums)
