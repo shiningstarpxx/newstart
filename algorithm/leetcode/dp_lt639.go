@@ -50,7 +50,7 @@ func calcTwo(b, c byte) int {
 	return 0
 }
 
-func numDecodings(s string) int {
+func numDecodings639(s string) int {
 	if len(s) == 0 {
 		return 0
 	}
