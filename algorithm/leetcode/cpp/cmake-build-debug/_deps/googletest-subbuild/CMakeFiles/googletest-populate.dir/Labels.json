@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule"
+		},
+		{
+			"file" : "/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule"
+		},
+		{
+			"file" : "/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule"
+		},
+		{
+			"file" : "/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule"
+		},
+		{
+			"file" : "/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule"
+		},
+		{
+			"file" : "/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}
