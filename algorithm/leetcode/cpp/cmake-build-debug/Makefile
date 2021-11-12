@@ -242,6 +242,21 @@ dfs_488lt.s:
 .PHONY : dfs_488lt.s
 
 # target to build an object file
+dp_375lt.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/dp_375lt.o
+.PHONY : dp_375lt.o
+
+# target to preprocess a source file
+dp_375lt.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/dp_375lt.i
+.PHONY : dp_375lt.i
+
+# target to generate assembly for a file
+dp_375lt.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/dp_375lt.s
+.PHONY : dp_375lt.s
+
+# target to build an object file
 dp_629lt.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/dp_629lt.o
 .PHONY : dp_629lt.o
@@ -291,6 +306,9 @@ help:
 	@echo "... dfs_488lt.o"
 	@echo "... dfs_488lt.i"
 	@echo "... dfs_488lt.s"
+	@echo "... dp_375lt.o"
+	@echo "... dp_375lt.i"
+	@echo "... dp_375lt.s"
 	@echo "... dp_629lt.o"
 	@echo "... dp_629lt.i"
 	@echo "... dp_629lt.s"
