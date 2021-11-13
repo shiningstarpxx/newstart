@@ -340,6 +340,9 @@
 		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/math_260lt.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
+		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/simulation_520lt.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
 		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
