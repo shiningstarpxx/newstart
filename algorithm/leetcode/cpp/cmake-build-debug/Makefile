@@ -301,6 +301,21 @@ simulation_520lt.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/simulation_520lt.s
 .PHONY : simulation_520lt.s
 
+# target to build an object file
+tire_tree_677lt.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/tire_tree_677lt.o
+.PHONY : tire_tree_677lt.o
+
+# target to preprocess a source file
+tire_tree_677lt.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/tire_tree_677lt.i
+.PHONY : tire_tree_677lt.i
+
+# target to generate assembly for a file
+tire_tree_677lt.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/tire_tree_677lt.s
+.PHONY : tire_tree_677lt.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -333,6 +348,9 @@ help:
 	@echo "... simulation_520lt.o"
 	@echo "... simulation_520lt.i"
 	@echo "... simulation_520lt.s"
+	@echo "... tire_tree_677lt.o"
+	@echo "... tire_tree_677lt.i"
+	@echo "... tire_tree_677lt.s"
 .PHONY : help
 
 
