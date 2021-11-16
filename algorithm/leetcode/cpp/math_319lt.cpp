@@ -2,6 +2,8 @@
 // Created by 裴星鑫 on 2021/11/15.
 //
 
+#include <cmath>
+
 class Solution {
  public:
   int bulbSwitch(int n) {
