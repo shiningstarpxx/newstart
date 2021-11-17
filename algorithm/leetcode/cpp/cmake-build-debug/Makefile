@@ -227,6 +227,21 @@ gtest/fast:
 .PHONY : gtest/fast
 
 # target to build an object file
+bit_operation_318lt.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bit_operation_318lt.o
+.PHONY : bit_operation_318lt.o
+
+# target to preprocess a source file
+bit_operation_318lt.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bit_operation_318lt.i
+.PHONY : bit_operation_318lt.i
+
+# target to generate assembly for a file
+bit_operation_318lt.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bit_operation_318lt.s
+.PHONY : bit_operation_318lt.s
+
+# target to build an object file
 dfs_488lt.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/dfs_488lt.o
 .PHONY : dfs_488lt.o
@@ -363,6 +378,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... bit_operation_318lt.o"
+	@echo "... bit_operation_318lt.i"
+	@echo "... bit_operation_318lt.s"
 	@echo "... dfs_488lt.o"
 	@echo "... dfs_488lt.i"
 	@echo "... dfs_488lt.s"
