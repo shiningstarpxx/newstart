@@ -15,5 +15,5 @@ FetchContent_MakeAvailable(googletest)
 
 # 'Google_Tests_run' is the target name
 # 'test1.cpp tests2.cpp' are source files with tests
-add_executable(Google_Tests_run math_260lt.cpp dfs_488lt.cpp dp_629lt.cpp dp_375lt.cpp simulation_520lt.cpp tire_tree_677lt.cpp math_319lt.cpp sweep_line_391lt.cpp bit_operation_318lt.cpp)
+add_executable(Google_Tests_run math_260lt.cpp dfs_488lt.cpp dp_629lt.cpp dp_375lt.cpp simulation_520lt.cpp tire_tree_677lt.cpp math_319lt.cpp sweep_line_391lt.cpp bit_operation_318lt.cpp dfs_tree_563lt.cpp)
 target_link_libraries(Google_Tests_run gtest gtest_main)
