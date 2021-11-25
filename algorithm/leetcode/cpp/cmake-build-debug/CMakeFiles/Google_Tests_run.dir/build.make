@@ -183,22 +183,9 @@ CMakeFiles/Google_Tests_run.dir/bit_operation_318lt.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/bit_operation_318lt.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/bit_operation_318lt.cpp -o CMakeFiles/Google_Tests_run.dir/bit_operation_318lt.s
 
-CMakeFiles/Google_Tests_run.dir/dfs_tree_563lt.o: CMakeFiles/Google_Tests_run.dir/flags.make
-CMakeFiles/Google_Tests_run.dir/dfs_tree_563lt.o: ../dfs_tree_563lt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Google_Tests_run.dir/dfs_tree_563lt.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/dfs_tree_563lt.o -c /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dfs_tree_563lt.cpp
-
-CMakeFiles/Google_Tests_run.dir/dfs_tree_563lt.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/dfs_tree_563lt.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dfs_tree_563lt.cpp > CMakeFiles/Google_Tests_run.dir/dfs_tree_563lt.i
-
-CMakeFiles/Google_Tests_run.dir/dfs_tree_563lt.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/dfs_tree_563lt.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dfs_tree_563lt.cpp -o CMakeFiles/Google_Tests_run.dir/dfs_tree_563lt.s
-
 CMakeFiles/Google_Tests_run.dir/dfs_397lt.o: CMakeFiles/Google_Tests_run.dir/flags.make
 CMakeFiles/Google_Tests_run.dir/dfs_397lt.o: ../dfs_397lt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Google_Tests_run.dir/dfs_397lt.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Google_Tests_run.dir/dfs_397lt.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/dfs_397lt.o -c /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dfs_397lt.cpp
 
 CMakeFiles/Google_Tests_run.dir/dfs_397lt.i: cmake_force
@@ -211,7 +198,7 @@ CMakeFiles/Google_Tests_run.dir/dfs_397lt.s: cmake_force
 
 CMakeFiles/Google_Tests_run.dir/hashtable_594lt.o: CMakeFiles/Google_Tests_run.dir/flags.make
 CMakeFiles/Google_Tests_run.dir/hashtable_594lt.o: ../hashtable_594lt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Google_Tests_run.dir/hashtable_594lt.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Google_Tests_run.dir/hashtable_594lt.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/hashtable_594lt.o -c /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/hashtable_594lt.cpp
 
 CMakeFiles/Google_Tests_run.dir/hashtable_594lt.i: cmake_force
@@ -224,7 +211,7 @@ CMakeFiles/Google_Tests_run.dir/hashtable_594lt.s: cmake_force
 
 CMakeFiles/Google_Tests_run.dir/multi_tree_traverse_1600lt.o: CMakeFiles/Google_Tests_run.dir/flags.make
 CMakeFiles/Google_Tests_run.dir/multi_tree_traverse_1600lt.o: ../multi_tree_traverse_1600lt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Google_Tests_run.dir/multi_tree_traverse_1600lt.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Google_Tests_run.dir/multi_tree_traverse_1600lt.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/multi_tree_traverse_1600lt.o -c /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/multi_tree_traverse_1600lt.cpp
 
 CMakeFiles/Google_Tests_run.dir/multi_tree_traverse_1600lt.i: cmake_force
@@ -237,7 +224,7 @@ CMakeFiles/Google_Tests_run.dir/multi_tree_traverse_1600lt.s: cmake_force
 
 CMakeFiles/Google_Tests_run.dir/hashtable_423lt.o: CMakeFiles/Google_Tests_run.dir/flags.make
 CMakeFiles/Google_Tests_run.dir/hashtable_423lt.o: ../hashtable_423lt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Google_Tests_run.dir/hashtable_423lt.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Google_Tests_run.dir/hashtable_423lt.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/hashtable_423lt.o -c /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/hashtable_423lt.cpp
 
 CMakeFiles/Google_Tests_run.dir/hashtable_423lt.i: cmake_force
@@ -247,6 +234,19 @@ CMakeFiles/Google_Tests_run.dir/hashtable_423lt.i: cmake_force
 CMakeFiles/Google_Tests_run.dir/hashtable_423lt.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/hashtable_423lt.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/hashtable_423lt.cpp -o CMakeFiles/Google_Tests_run.dir/hashtable_423lt.s
+
+CMakeFiles/Google_Tests_run.dir/math_458lt.o: CMakeFiles/Google_Tests_run.dir/flags.make
+CMakeFiles/Google_Tests_run.dir/math_458lt.o: ../math_458lt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Google_Tests_run.dir/math_458lt.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/math_458lt.o -c /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/math_458lt.cpp
+
+CMakeFiles/Google_Tests_run.dir/math_458lt.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/math_458lt.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/math_458lt.cpp > CMakeFiles/Google_Tests_run.dir/math_458lt.i
+
+CMakeFiles/Google_Tests_run.dir/math_458lt.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/math_458lt.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/math_458lt.cpp -o CMakeFiles/Google_Tests_run.dir/math_458lt.s
 
 # Object files for target Google_Tests_run
 Google_Tests_run_OBJECTS = \
@@ -259,11 +259,11 @@ Google_Tests_run_OBJECTS = \
 "CMakeFiles/Google_Tests_run.dir/math_319lt.o" \
 "CMakeFiles/Google_Tests_run.dir/sweep_line_391lt.o" \
 "CMakeFiles/Google_Tests_run.dir/bit_operation_318lt.o" \
-"CMakeFiles/Google_Tests_run.dir/dfs_tree_563lt.o" \
 "CMakeFiles/Google_Tests_run.dir/dfs_397lt.o" \
 "CMakeFiles/Google_Tests_run.dir/hashtable_594lt.o" \
 "CMakeFiles/Google_Tests_run.dir/multi_tree_traverse_1600lt.o" \
-"CMakeFiles/Google_Tests_run.dir/hashtable_423lt.o"
+"CMakeFiles/Google_Tests_run.dir/hashtable_423lt.o" \
+"CMakeFiles/Google_Tests_run.dir/math_458lt.o"
 
 # External object files for target Google_Tests_run
 Google_Tests_run_EXTERNAL_OBJECTS =
@@ -277,11 +277,11 @@ Google_Tests_run: CMakeFiles/Google_Tests_run.dir/tire_tree_677lt.o
 Google_Tests_run: CMakeFiles/Google_Tests_run.dir/math_319lt.o
 Google_Tests_run: CMakeFiles/Google_Tests_run.dir/sweep_line_391lt.o
 Google_Tests_run: CMakeFiles/Google_Tests_run.dir/bit_operation_318lt.o
-Google_Tests_run: CMakeFiles/Google_Tests_run.dir/dfs_tree_563lt.o
 Google_Tests_run: CMakeFiles/Google_Tests_run.dir/dfs_397lt.o
 Google_Tests_run: CMakeFiles/Google_Tests_run.dir/hashtable_594lt.o
 Google_Tests_run: CMakeFiles/Google_Tests_run.dir/multi_tree_traverse_1600lt.o
 Google_Tests_run: CMakeFiles/Google_Tests_run.dir/hashtable_423lt.o
+Google_Tests_run: CMakeFiles/Google_Tests_run.dir/math_458lt.o
 Google_Tests_run: CMakeFiles/Google_Tests_run.dir/build.make
 Google_Tests_run: lib/libgtestd.a
 Google_Tests_run: lib/libgtest_maind.a
