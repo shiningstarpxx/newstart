@@ -1,6 +1,9 @@
 //
 // Created by Pei Xingxin on 27/11/2021.
 //
+#include <random>
+
+using namespace std;
 
 class Solution {
  public:
