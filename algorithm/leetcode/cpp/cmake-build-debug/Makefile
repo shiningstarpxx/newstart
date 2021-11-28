@@ -452,6 +452,36 @@ simulation_520lt.s:
 .PHONY : simulation_520lt.s
 
 # target to build an object file
+slide_window_438lt.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/slide_window_438lt.o
+.PHONY : slide_window_438lt.o
+
+# target to preprocess a source file
+slide_window_438lt.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/slide_window_438lt.i
+.PHONY : slide_window_438lt.i
+
+# target to generate assembly for a file
+slide_window_438lt.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/slide_window_438lt.s
+.PHONY : slide_window_438lt.s
+
+# target to build an object file
+slide_window_438lt_wa.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/slide_window_438lt_wa.o
+.PHONY : slide_window_438lt_wa.o
+
+# target to preprocess a source file
+slide_window_438lt_wa.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/slide_window_438lt_wa.i
+.PHONY : slide_window_438lt_wa.i
+
+# target to generate assembly for a file
+slide_window_438lt_wa.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/slide_window_438lt_wa.s
+.PHONY : slide_window_438lt_wa.s
+
+# target to build an object file
 sweep_line_391lt.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/sweep_line_391lt.o
 .PHONY : sweep_line_391lt.o
@@ -543,6 +573,12 @@ help:
 	@echo "... simulation_520lt.o"
 	@echo "... simulation_520lt.i"
 	@echo "... simulation_520lt.s"
+	@echo "... slide_window_438lt.o"
+	@echo "... slide_window_438lt.i"
+	@echo "... slide_window_438lt.s"
+	@echo "... slide_window_438lt_wa.o"
+	@echo "... slide_window_438lt_wa.i"
+	@echo "... slide_window_438lt_wa.s"
 	@echo "... sweep_line_391lt.o"
 	@echo "... sweep_line_391lt.i"
 	@echo "... sweep_line_391lt.s"
