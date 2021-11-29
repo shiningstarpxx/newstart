@@ -392,6 +392,21 @@ multi_tree_traverse_1600lt.s:
 .PHONY : multi_tree_traverse_1600lt.s
 
 # target to build an object file
+priority_queue_786lt.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/priority_queue_786lt.o
+.PHONY : priority_queue_786lt.o
+
+# target to preprocess a source file
+priority_queue_786lt.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/priority_queue_786lt.i
+.PHONY : priority_queue_786lt.i
+
+# target to generate assembly for a file
+priority_queue_786lt.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/priority_queue_786lt.s
+.PHONY : priority_queue_786lt.s
+
+# target to build an object file
 random_380lt.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/random_380lt.o
 .PHONY : random_380lt.o
@@ -561,6 +576,9 @@ help:
 	@echo "... multi_tree_traverse_1600lt.o"
 	@echo "... multi_tree_traverse_1600lt.i"
 	@echo "... multi_tree_traverse_1600lt.s"
+	@echo "... priority_queue_786lt.o"
+	@echo "... priority_queue_786lt.i"
+	@echo "... priority_queue_786lt.s"
 	@echo "... random_380lt.o"
 	@echo "... random_380lt.i"
 	@echo "... random_380lt.s"
