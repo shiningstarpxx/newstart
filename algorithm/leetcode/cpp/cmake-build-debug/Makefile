@@ -512,6 +512,21 @@ slide_window_438lt_wa.s:
 .PHONY : slide_window_438lt_wa.s
 
 # target to build an object file
+slide_window_689lt.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/slide_window_689lt.o
+.PHONY : slide_window_689lt.o
+
+# target to preprocess a source file
+slide_window_689lt.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/slide_window_689lt.i
+.PHONY : slide_window_689lt.i
+
+# target to generate assembly for a file
+slide_window_689lt.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/slide_window_689lt.s
+.PHONY : slide_window_689lt.s
+
+# target to build an object file
 sweep_line_391lt.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/sweep_line_391lt.o
 .PHONY : sweep_line_391lt.o
@@ -615,6 +630,9 @@ help:
 	@echo "... slide_window_438lt_wa.o"
 	@echo "... slide_window_438lt_wa.i"
 	@echo "... slide_window_438lt_wa.s"
+	@echo "... slide_window_689lt.o"
+	@echo "... slide_window_689lt.i"
+	@echo "... slide_window_689lt.s"
 	@echo "... sweep_line_391lt.o"
 	@echo "... sweep_line_391lt.i"
 	@echo "... sweep_line_391lt.s"
