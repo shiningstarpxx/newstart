@@ -227,6 +227,21 @@ gtest/fast:
 .PHONY : gtest/fast
 
 # target to build an object file
+binary_search_911.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/binary_search_911.o
+.PHONY : binary_search_911.o
+
+# target to preprocess a source file
+binary_search_911.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/binary_search_911.i
+.PHONY : binary_search_911.i
+
+# target to generate assembly for a file
+binary_search_911.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/binary_search_911.s
+.PHONY : binary_search_911.s
+
+# target to build an object file
 bit_operation_318lt.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bit_operation_318lt.o
 .PHONY : bit_operation_318lt.o
@@ -315,6 +330,21 @@ dp_629lt.i:
 dp_629lt.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/dp_629lt.s
 .PHONY : dp_629lt.s
+
+# target to build an object file
+greedy_630.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/greedy_630.o
+.PHONY : greedy_630.o
+
+# target to preprocess a source file
+greedy_630.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/greedy_630.i
+.PHONY : greedy_630.i
+
+# target to generate assembly for a file
+greedy_630.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/greedy_630.s
+.PHONY : greedy_630.s
 
 # target to build an object file
 hashtable_423lt.o:
@@ -588,6 +618,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... binary_search_911.o"
+	@echo "... binary_search_911.i"
+	@echo "... binary_search_911.s"
 	@echo "... bit_operation_318lt.o"
 	@echo "... bit_operation_318lt.i"
 	@echo "... bit_operation_318lt.s"
@@ -606,6 +639,9 @@ help:
 	@echo "... dp_629lt.o"
 	@echo "... dp_629lt.i"
 	@echo "... dp_629lt.s"
+	@echo "... greedy_630.o"
+	@echo "... greedy_630.i"
+	@echo "... greedy_630.s"
 	@echo "... hashtable_423lt.o"
 	@echo "... hashtable_423lt.i"
 	@echo "... hashtable_423lt.s"
