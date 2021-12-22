@@ -227,6 +227,21 @@ gtest/fast:
 .PHONY : gtest/fast
 
 # target to build an object file
+binary_search_475.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/binary_search_475.o
+.PHONY : binary_search_475.o
+
+# target to preprocess a source file
+binary_search_475.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/binary_search_475.i
+.PHONY : binary_search_475.i
+
+# target to generate assembly for a file
+binary_search_475.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/binary_search_475.s
+.PHONY : binary_search_475.s
+
+# target to build an object file
 binary_search_911.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/binary_search_911.o
 .PHONY : binary_search_911.o
@@ -572,6 +587,21 @@ slide_window_689lt.s:
 .PHONY : slide_window_689lt.s
 
 # target to build an object file
+string_kmp_686.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/string_kmp_686.o
+.PHONY : string_kmp_686.o
+
+# target to preprocess a source file
+string_kmp_686.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/string_kmp_686.i
+.PHONY : string_kmp_686.i
+
+# target to generate assembly for a file
+string_kmp_686.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/string_kmp_686.s
+.PHONY : string_kmp_686.s
+
+# target to build an object file
 sweep_line_391lt.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/sweep_line_391lt.o
 .PHONY : sweep_line_391lt.o
@@ -633,6 +663,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... binary_search_475.o"
+	@echo "... binary_search_475.i"
+	@echo "... binary_search_475.s"
 	@echo "... binary_search_911.o"
 	@echo "... binary_search_911.i"
 	@echo "... binary_search_911.s"
@@ -702,6 +735,9 @@ help:
 	@echo "... slide_window_689lt.o"
 	@echo "... slide_window_689lt.i"
 	@echo "... slide_window_689lt.s"
+	@echo "... string_kmp_686.o"
+	@echo "... string_kmp_686.i"
+	@echo "... string_kmp_686.s"
 	@echo "... sweep_line_391lt.o"
 	@echo "... sweep_line_391lt.i"
 	@echo "... sweep_line_391lt.s"
