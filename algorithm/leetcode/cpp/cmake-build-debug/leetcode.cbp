@@ -379,6 +379,9 @@
 		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/multi_tree_traverse_1600lt.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
+		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/priority_queue_1705.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
 		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/priority_queue_786lt.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
@@ -404,6 +407,9 @@
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/string_kmp_686.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/string_rabin_karp_1044.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/sweep_line_391lt.cpp">
