@@ -676,6 +676,21 @@ topological_sort_851.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/topological_sort_851.s
 .PHONY : topological_sort_851.s
 
+# target to build an object file
+trie_472.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/trie_472.o
+.PHONY : trie_472.o
+
+# target to preprocess a source file
+trie_472.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/trie_472.i
+.PHONY : trie_472.i
+
+# target to generate assembly for a file
+trie_472.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/trie_472.s
+.PHONY : trie_472.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -783,6 +798,9 @@ help:
 	@echo "... topological_sort_851.o"
 	@echo "... topological_sort_851.i"
 	@echo "... topological_sort_851.s"
+	@echo "... trie_472.o"
+	@echo "... trie_472.i"
+	@echo "... trie_472.s"
 .PHONY : help
 
 

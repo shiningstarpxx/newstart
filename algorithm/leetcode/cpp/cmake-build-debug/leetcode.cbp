@@ -421,6 +421,9 @@
 		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/topological_sort_851.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
+		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/trie_472.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
 		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
