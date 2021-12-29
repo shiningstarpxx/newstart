@@ -377,6 +377,21 @@ greedy_630.s:
 .PHONY : greedy_630.s
 
 # target to build an object file
+hash_1995.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/hash_1995.o
+.PHONY : hash_1995.o
+
+# target to preprocess a source file
+hash_1995.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/hash_1995.i
+.PHONY : hash_1995.i
+
+# target to generate assembly for a file
+hash_1995.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/hash_1995.s
+.PHONY : hash_1995.s
+
+# target to build an object file
 hashtable_423lt.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/hashtable_423lt.o
 .PHONY : hashtable_423lt.o
@@ -738,6 +753,9 @@ help:
 	@echo "... greedy_630.o"
 	@echo "... greedy_630.i"
 	@echo "... greedy_630.s"
+	@echo "... hash_1995.o"
+	@echo "... hash_1995.i"
+	@echo "... hash_1995.s"
 	@echo "... hashtable_423lt.o"
 	@echo "... hashtable_423lt.i"
 	@echo "... hashtable_423lt.s"
