@@ -497,6 +497,51 @@ multi_tree_traverse_1600lt.s:
 .PHONY : multi_tree_traverse_1600lt.s
 
 # target to build an object file
+perfix_sum_560.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/perfix_sum_560.o
+.PHONY : perfix_sum_560.o
+
+# target to preprocess a source file
+perfix_sum_560.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/perfix_sum_560.i
+.PHONY : perfix_sum_560.i
+
+# target to generate assembly for a file
+perfix_sum_560.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/perfix_sum_560.s
+.PHONY : perfix_sum_560.s
+
+# target to build an object file
+prefix_sum_724.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_724.o
+.PHONY : prefix_sum_724.o
+
+# target to preprocess a source file
+prefix_sum_724.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_724.i
+.PHONY : prefix_sum_724.i
+
+# target to generate assembly for a file
+prefix_sum_724.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_724.s
+.PHONY : prefix_sum_724.s
+
+# target to build an object file
+prefix_sum_930.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_930.o
+.PHONY : prefix_sum_930.o
+
+# target to preprocess a source file
+prefix_sum_930.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_930.i
+.PHONY : prefix_sum_930.i
+
+# target to generate assembly for a file
+prefix_sum_930.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_930.s
+.PHONY : prefix_sum_930.s
+
+# target to build an object file
 priority_queue_1705.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/priority_queue_1705.o
 .PHONY : priority_queue_1705.o
@@ -792,6 +837,15 @@ help:
 	@echo "... multi_tree_traverse_1600lt.o"
 	@echo "... multi_tree_traverse_1600lt.i"
 	@echo "... multi_tree_traverse_1600lt.s"
+	@echo "... perfix_sum_560.o"
+	@echo "... perfix_sum_560.i"
+	@echo "... perfix_sum_560.s"
+	@echo "... prefix_sum_724.o"
+	@echo "... prefix_sum_724.i"
+	@echo "... prefix_sum_724.s"
+	@echo "... prefix_sum_930.o"
+	@echo "... prefix_sum_930.i"
+	@echo "... prefix_sum_930.s"
 	@echo "... priority_queue_1705.o"
 	@echo "... priority_queue_1705.i"
 	@echo "... priority_queue_1705.s"
