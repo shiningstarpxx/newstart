@@ -17,20 +17,20 @@ CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/M
 
     Change Dir: /Users/peixingxin/go/src/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles/CMakeTmp
     
-    Run Build Command(s):/usr/bin/make cmTC_eaa2a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_eaa2a.dir/build.make CMakeFiles/cmTC_eaa2a.dir/build
-    Building CXX object CMakeFiles/cmTC_eaa2a.dir/testCXXCompiler.cxx.o
-    /usr/local/Cellar/gcc/9.3.0_1/bin/g++-9    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0   -o CMakeFiles/cmTC_eaa2a.dir/testCXXCompiler.cxx.o -c /Users/peixingxin/go/src/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+    Run Build Command(s):/usr/bin/make cmTC_c1bc1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c1bc1.dir/build.make CMakeFiles/cmTC_c1bc1.dir/build
+    Building CXX object CMakeFiles/cmTC_c1bc1.dir/testCXXCompiler.cxx.o
+    /usr/local/Cellar/gcc/9.3.0_1/bin/g++-9    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0   -o CMakeFiles/cmTC_c1bc1.dir/testCXXCompiler.cxx.o -c /Users/peixingxin/go/src/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
     g++-9: warning: '12.0' is not valid for 'mmacosx-version-min'
     
-    Linking CXX executable cmTC_eaa2a
-    /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaa2a.dir/link.txt --verbose=1
-    /usr/local/Cellar/gcc/9.3.0_1/bin/g++-9    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_eaa2a.dir/testCXXCompiler.cxx.o  -o cmTC_eaa2a 
+    Linking CXX executable cmTC_c1bc1
+    /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1bc1.dir/link.txt --verbose=1
+    /usr/local/Cellar/gcc/9.3.0_1/bin/g++-9    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c1bc1.dir/testCXXCompiler.cxx.o  -o cmTC_c1bc1 
     g++-9: warning: '12.0' is not valid for 'mmacosx-version-min'
     
     ld: library not found for -lgcc_s.10.4
     collect2: error: ld returned 1 exit status
-    make[1]: *** [cmTC_eaa2a] Error 1
-    make: *** [cmTC_eaa2a/fast] Error 2
+    make[1]: *** [cmTC_c1bc1] Error 1
+    make: *** [cmTC_c1bc1/fast] Error 2
     
     
 
