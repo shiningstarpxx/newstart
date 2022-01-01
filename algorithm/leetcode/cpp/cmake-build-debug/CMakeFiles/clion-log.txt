@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp
 -- The C compiler identification is AppleClang 12.0.5.12050022
 -- The CXX compiler identification is AppleClang 12.0.5.12050022
@@ -17,6 +18,51 @@
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE  
+=======
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/9.3.0_1/bin/gcc-9 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/9.3.0_1/bin/g++-9 -G "CodeBlocks - Unix Makefiles" /Users/peixingxin/go/src/golang_source_analyses/algorithm/leetcode/cpp
+-- The CXX compiler identification is GNU 9.3.0
+-- Checking whether CXX compiler has -isysroot
+-- Checking whether CXX compiler has -isysroot - yes
+-- Checking whether CXX compiler supports OSX deployment target flag
+-- Checking whether CXX compiler supports OSX deployment target flag - yes
+-- Check for working CXX compiler: /usr/local/Cellar/gcc/9.3.0_1/bin/g++-9
+-- Check for working CXX compiler: /usr/local/Cellar/gcc/9.3.0_1/bin/g++-9 - broken
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeTestCXXCompiler.cmake:53 (message):
+  The C++ compiler
+
+    "/usr/local/Cellar/gcc/9.3.0_1/bin/g++-9"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/peixingxin/go/src/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/make cmTC_beb6c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_beb6c.dir/build.make CMakeFiles/cmTC_beb6c.dir/build
+    Building CXX object CMakeFiles/cmTC_beb6c.dir/testCXXCompiler.cxx.o
+    /usr/local/Cellar/gcc/9.3.0_1/bin/g++-9    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0   -o CMakeFiles/cmTC_beb6c.dir/testCXXCompiler.cxx.o -c /Users/peixingxin/go/src/golang_source_analyses/algorithm/leetcode/cpp/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+    g++-9: warning: '12.0' is not valid for 'mmacosx-version-min'
+    
+    Linking CXX executable cmTC_beb6c
+    /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_beb6c.dir/link.txt --verbose=1
+    /usr/local/Cellar/gcc/9.3.0_1/bin/g++-9    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_beb6c.dir/testCXXCompiler.cxx.o  -o cmTC_beb6c 
+    g++-9: warning: '12.0' is not valid for 'mmacosx-version-min'
+    
+    ld: library not found for -lgcc_s.10.4
+    collect2: error: ld returned 1 exit status
+    make[1]: *** [cmTC_beb6c] Error 1
+    make: *** [cmTC_beb6c/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:1 (project)
+
+
+>>>>>>> 81c08d59a1e8be2f5dada71dcacca467849e356e
 CMake Warning (dev) in CMakeLists.txt:
   No cmake_minimum_required command is present.  A line of code such as
 
