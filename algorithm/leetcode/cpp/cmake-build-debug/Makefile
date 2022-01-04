@@ -512,6 +512,36 @@ perfix_sum_560.s:
 .PHONY : perfix_sum_560.s
 
 # target to build an object file
+prefix_sum_1248.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_1248.o
+.PHONY : prefix_sum_1248.o
+
+# target to preprocess a source file
+prefix_sum_1248.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_1248.i
+.PHONY : prefix_sum_1248.i
+
+# target to generate assembly for a file
+prefix_sum_1248.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_1248.s
+.PHONY : prefix_sum_1248.s
+
+# target to build an object file
+prefix_sum_523.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_523.o
+.PHONY : prefix_sum_523.o
+
+# target to preprocess a source file
+prefix_sum_523.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_523.i
+.PHONY : prefix_sum_523.i
+
+# target to generate assembly for a file
+prefix_sum_523.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_523.s
+.PHONY : prefix_sum_523.s
+
+# target to build an object file
 prefix_sum_724.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_724.o
 .PHONY : prefix_sum_724.o
@@ -540,6 +570,21 @@ prefix_sum_930.i:
 prefix_sum_930.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_930.s
 .PHONY : prefix_sum_930.s
+
+# target to build an object file
+prefix_sum_974.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_974.o
+.PHONY : prefix_sum_974.o
+
+# target to preprocess a source file
+prefix_sum_974.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_974.i
+.PHONY : prefix_sum_974.i
+
+# target to generate assembly for a file
+prefix_sum_974.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_974.s
+.PHONY : prefix_sum_974.s
 
 # target to build an object file
 priority_queue_1705.o:
@@ -840,12 +885,21 @@ help:
 	@echo "... perfix_sum_560.o"
 	@echo "... perfix_sum_560.i"
 	@echo "... perfix_sum_560.s"
+	@echo "... prefix_sum_1248.o"
+	@echo "... prefix_sum_1248.i"
+	@echo "... prefix_sum_1248.s"
+	@echo "... prefix_sum_523.o"
+	@echo "... prefix_sum_523.i"
+	@echo "... prefix_sum_523.s"
 	@echo "... prefix_sum_724.o"
 	@echo "... prefix_sum_724.i"
 	@echo "... prefix_sum_724.s"
 	@echo "... prefix_sum_930.o"
 	@echo "... prefix_sum_930.i"
 	@echo "... prefix_sum_930.s"
+	@echo "... prefix_sum_974.o"
+	@echo "... prefix_sum_974.i"
+	@echo "... prefix_sum_974.s"
 	@echo "... priority_queue_1705.o"
 	@echo "... priority_queue_1705.i"
 	@echo "... priority_queue_1705.s"
