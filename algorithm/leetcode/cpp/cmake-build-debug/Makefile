@@ -227,6 +227,21 @@ gtest/fast:
 .PHONY : gtest/fast
 
 # target to build an object file
+bfs_didirection_1036.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bfs_didirection_1036.o
+.PHONY : bfs_didirection_1036.o
+
+# target to preprocess a source file
+bfs_didirection_1036.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bfs_didirection_1036.i
+.PHONY : bfs_didirection_1036.i
+
+# target to generate assembly for a file
+bfs_didirection_1036.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bfs_didirection_1036.s
+.PHONY : bfs_didirection_1036.s
+
+# target to build an object file
 binary_search_475.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/binary_search_475.o
 .PHONY : binary_search_475.o
@@ -918,6 +933,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... bfs_didirection_1036.o"
+	@echo "... bfs_didirection_1036.i"
+	@echo "... bfs_didirection_1036.s"
 	@echo "... binary_search_475.o"
 	@echo "... binary_search_475.i"
 	@echo "... binary_search_475.s"
