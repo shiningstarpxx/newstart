@@ -227,6 +227,21 @@ gtest/fast:
 .PHONY : gtest/fast
 
 # target to build an object file
+bfs_1345.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bfs_1345.o
+.PHONY : bfs_1345.o
+
+# target to preprocess a source file
+bfs_1345.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bfs_1345.i
+.PHONY : bfs_1345.i
+
+# target to generate assembly for a file
+bfs_1345.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bfs_1345.s
+.PHONY : bfs_1345.s
+
+# target to build an object file
 bfs_didirection_1036.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bfs_didirection_1036.o
 .PHONY : bfs_didirection_1036.o
@@ -902,6 +917,21 @@ string_rabin_karp_1044.s:
 .PHONY : string_rabin_karp_1044.s
 
 # target to build an object file
+string_time_539.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/string_time_539.o
+.PHONY : string_time_539.o
+
+# target to preprocess a source file
+string_time_539.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/string_time_539.i
+.PHONY : string_time_539.i
+
+# target to generate assembly for a file
+string_time_539.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/string_time_539.s
+.PHONY : string_time_539.s
+
+# target to build an object file
 sweep_line_391lt.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/sweep_line_391lt.o
 .PHONY : sweep_line_391lt.o
@@ -978,6 +1008,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... bfs_1345.o"
+	@echo "... bfs_1345.i"
+	@echo "... bfs_1345.s"
 	@echo "... bfs_didirection_1036.o"
 	@echo "... bfs_didirection_1036.i"
 	@echo "... bfs_didirection_1036.s"
@@ -1113,6 +1146,9 @@ help:
 	@echo "... string_rabin_karp_1044.o"
 	@echo "... string_rabin_karp_1044.i"
 	@echo "... string_rabin_karp_1044.s"
+	@echo "... string_time_539.o"
+	@echo "... string_time_539.i"
+	@echo "... string_time_539.s"
 	@echo "... sweep_line_391lt.o"
 	@echo "... sweep_line_391lt.i"
 	@echo "... sweep_line_391lt.s"

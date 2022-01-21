@@ -1,7 +1,7 @@
 //
 // Created by Pei Xingxin on 31/12/2021.
 //
-#include <algorithm>
+#include <numeric>
 #include <vector>
 
 using namespace std;

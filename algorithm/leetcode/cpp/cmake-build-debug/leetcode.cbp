@@ -316,6 +316,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/bfs_1345.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
 		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/bfs_didirection_1036.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
@@ -464,6 +467,9 @@
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/string_rabin_karp_1044.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/string_time_539.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/sweep_line_391lt.cpp">
