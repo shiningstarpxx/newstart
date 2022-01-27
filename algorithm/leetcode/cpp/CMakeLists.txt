@@ -23,5 +23,5 @@ add_executable(Google_Tests_run math_260lt.cpp dfs_488lt.cpp dp_629lt.cpp dp_375
         priority_queue_1705.cpp trie_472.cpp hash_1995.cpp hashmap_846.cpp prefix_sum_724.cpp perfix_sum_560.cpp prefix_sum_930.cpp
         prefix_sum_1248.cpp prefix_sum_974.cpp prefix_sum_523.cpp game_dfs_913.cpp dp_route_plan_62.cpp string_71.cpp
         dp_route_plan_63.cpp dp_route_plan_64.cpp simualtion_math_306.cpp bfs_didirection_1036.cpp multi_merge_373.cpp
-        multi_merge_378.cpp dp_1220.cpp string_time_539.cpp bfs_1345.cpp graph_743.cpp)
+        multi_merge_378.cpp dp_1220.cpp string_time_539.cpp bfs_1345.cpp graph_743.cpp graph_743_adj_list.cpp)
 target_link_libraries(Google_Tests_run gtest gtest_main)

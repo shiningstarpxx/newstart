@@ -13,8 +13,14 @@ class Solution {
   int networkDelayTime(vector<vector<int>>& times, int n, int k) {
     n_ = n;
     k_ = k;
-    w_ = vector<vector<int>>(n + 1, vector<int>(n + 1, INT32_MAX / 2));
-    for (int i = 1; i <= n; i++) w_[i][i] = 0;
+
+    return calcMatrix(times);
+  }
+
+  // 邻接矩阵
+  int calcMatrix(vector<vector<int>>& times) {
+    w_ = vector<vector<int>>(n_ + 1, vector<int>(n_ + 1, INT32_MAX / 2));
+    for (int i = 1; i <= n_; i++) w_[i][i] = 0;
 
     for (auto& v : times) {
       w_[v[0]][v[1]] = v[2];
@@ -22,7 +28,6 @@ class Solution {
     }
 
 //    return calcFloyd();
-
     return calcDijkstra();
   }
 
