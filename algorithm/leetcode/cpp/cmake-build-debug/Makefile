@@ -257,6 +257,21 @@ bfs_didirection_1036.s:
 .PHONY : bfs_didirection_1036.s
 
 # target to build an object file
+binary_1601.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/binary_1601.o
+.PHONY : binary_1601.o
+
+# target to preprocess a source file
+binary_1601.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/binary_1601.i
+.PHONY : binary_1601.i
+
+# target to generate assembly for a file
+binary_1601.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/binary_1601.s
+.PHONY : binary_1601.s
+
+# target to build an object file
 binary_search_475.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/binary_search_475.o
 .PHONY : binary_search_475.o
@@ -902,6 +917,21 @@ slide_window_689lt.s:
 .PHONY : slide_window_689lt.s
 
 # target to build an object file
+sort_969.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/sort_969.o
+.PHONY : sort_969.o
+
+# target to preprocess a source file
+sort_969.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/sort_969.i
+.PHONY : sort_969.i
+
+# target to generate assembly for a file
+sort_969.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/sort_969.s
+.PHONY : sort_969.s
+
+# target to build an object file
 string_71.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/string_71.o
 .PHONY : string_71.o
@@ -1044,6 +1074,9 @@ help:
 	@echo "... bfs_didirection_1036.o"
 	@echo "... bfs_didirection_1036.i"
 	@echo "... bfs_didirection_1036.s"
+	@echo "... binary_1601.o"
+	@echo "... binary_1601.i"
+	@echo "... binary_1601.s"
 	@echo "... binary_search_475.o"
 	@echo "... binary_search_475.i"
 	@echo "... binary_search_475.s"
@@ -1173,6 +1206,9 @@ help:
 	@echo "... slide_window_689lt.o"
 	@echo "... slide_window_689lt.i"
 	@echo "... slide_window_689lt.s"
+	@echo "... sort_969.o"
+	@echo "... sort_969.i"
+	@echo "... sort_969.s"
 	@echo "... string_71.o"
 	@echo "... string_71.i"
 	@echo "... string_71.s"
