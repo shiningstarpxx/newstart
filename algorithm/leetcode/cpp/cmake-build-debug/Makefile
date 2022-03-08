@@ -722,6 +722,21 @@ prefix_sum_1248.s:
 .PHONY : prefix_sum_1248.s
 
 # target to build an object file
+prefix_sum_2055.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_2055.o
+.PHONY : prefix_sum_2055.o
+
+# target to preprocess a source file
+prefix_sum_2055.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_2055.i
+.PHONY : prefix_sum_2055.i
+
+# target to generate assembly for a file
+prefix_sum_2055.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_2055.s
+.PHONY : prefix_sum_2055.s
+
+# target to build an object file
 prefix_sum_2100.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/prefix_sum_2100.o
 .PHONY : prefix_sum_2100.o
@@ -1197,6 +1212,9 @@ help:
 	@echo "... prefix_sum_1248.o"
 	@echo "... prefix_sum_1248.i"
 	@echo "... prefix_sum_1248.s"
+	@echo "... prefix_sum_2055.o"
+	@echo "... prefix_sum_2055.i"
+	@echo "... prefix_sum_2055.s"
 	@echo "... prefix_sum_2100.o"
 	@echo "... prefix_sum_2100.i"
 	@echo "... prefix_sum_2100.s"
