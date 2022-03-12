@@ -9,6 +9,7 @@
 package leveldb
 
 import (
+	"github.com/stretchr/testify/assert"
 	"reflect"
 	"testing"
 )
@@ -79,4 +80,26 @@ func TestNewSliceWithStr(t *testing.T) {
 			}
 		})
 	}
+}
+
+func TestLSlice_RemovePrefix(t *testing.T) {
+	s := NewSlice("sssss", 5)
+	s.RemovePrefix(2)
+	assert.Equal(t, "sss", s.GetData())
+	assert.Equal(t, 3, s.GetSize())
+}
+
+func TestLSlice_Compare(t *testing.T) {
+	s1 := NewSlice("sss", 3)
+	s2 := NewSlice("sssss", 5)
+	assert.Equal(t, -1, s1.Compare(s2))
+	assert.Equal(t, 1, s2.Compare(s1))
+	s3 := NewSlice("abc", 3)
+	assert.Equal(t, -1, s3.Compare(s1))
+	assert.Equal(t, -1, s3.Compare(s2))
+	assert.Equal(t, 1, s1.Compare(s3))
+	assert.Equal(t, 1, s2.Compare(s3))
+	s4 := NewSlice("sss", 3)
+	assert.Equal(t, 0, s4.Compare(s1))
+	assert.Equal(t, 0, s1.Compare(s4))
 }
