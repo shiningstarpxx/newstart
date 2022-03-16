@@ -317,6 +317,21 @@ bit_operation_318lt.s:
 .PHONY : bit_operation_318lt.s
 
 # target to build an object file
+data_structure_432.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/data_structure_432.o
+.PHONY : data_structure_432.o
+
+# target to preprocess a source file
+data_structure_432.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/data_structure_432.i
+.PHONY : data_structure_432.i
+
+# target to generate assembly for a file
+data_structure_432.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/data_structure_432.s
+.PHONY : data_structure_432.s
+
+# target to build an object file
 dfs_1034lt.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/dfs_1034lt.o
 .PHONY : dfs_1034lt.o
@@ -1176,6 +1191,9 @@ help:
 	@echo "... bit_operation_318lt.o"
 	@echo "... bit_operation_318lt.i"
 	@echo "... bit_operation_318lt.s"
+	@echo "... data_structure_432.o"
+	@echo "... data_structure_432.i"
+	@echo "... data_structure_432.s"
 	@echo "... dfs_1034lt.o"
 	@echo "... dfs_1034lt.i"
 	@echo "... dfs_1034lt.s"
