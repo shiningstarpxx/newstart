@@ -1201,6 +1201,21 @@ trie_472.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/trie_472.s
 .PHONY : trie_472.s
 
+# target to build an object file
+vector_sort_692.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/vector_sort_692.o
+.PHONY : vector_sort_692.o
+
+# target to preprocess a source file
+vector_sort_692.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/vector_sort_692.i
+.PHONY : vector_sort_692.i
+
+# target to generate assembly for a file
+vector_sort_692.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/vector_sort_692.s
+.PHONY : vector_sort_692.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1413,6 +1428,9 @@ help:
 	@echo "... trie_472.o"
 	@echo "... trie_472.i"
 	@echo "... trie_472.s"
+	@echo "... vector_sort_692.o"
+	@echo "... vector_sort_692.i"
+	@echo "... vector_sort_692.s"
 .PHONY : help
 
 
