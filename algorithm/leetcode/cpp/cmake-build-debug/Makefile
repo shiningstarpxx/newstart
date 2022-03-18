@@ -1112,6 +1112,21 @@ sweep_line_391lt.s:
 .PHONY : sweep_line_391lt.s
 
 # target to build an object file
+tire_tree.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/tire_tree.o
+.PHONY : tire_tree.o
+
+# target to preprocess a source file
+tire_tree.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/tire_tree.i
+.PHONY : tire_tree.i
+
+# target to generate assembly for a file
+tire_tree.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/tire_tree.s
+.PHONY : tire_tree.s
+
+# target to build an object file
 tire_tree_648.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/tire_tree_648.o
 .PHONY : tire_tree_648.o
@@ -1380,6 +1395,9 @@ help:
 	@echo "... sweep_line_391lt.o"
 	@echo "... sweep_line_391lt.i"
 	@echo "... sweep_line_391lt.s"
+	@echo "... tire_tree.o"
+	@echo "... tire_tree.i"
+	@echo "... tire_tree.s"
 	@echo "... tire_tree_648.o"
 	@echo "... tire_tree_648.i"
 	@echo "... tire_tree_648.s"
