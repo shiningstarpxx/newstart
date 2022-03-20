@@ -227,6 +227,21 @@ gtest/fast:
 .PHONY : gtest/fast
 
 # target to build an object file
+base_operation/string_operation.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/base_operation/string_operation.o
+.PHONY : base_operation/string_operation.o
+
+# target to preprocess a source file
+base_operation/string_operation.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/base_operation/string_operation.i
+.PHONY : base_operation/string_operation.i
+
+# target to generate assembly for a file
+base_operation/string_operation.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/base_operation/string_operation.s
+.PHONY : base_operation/string_operation.s
+
+# target to build an object file
 bfs_1345.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bfs_1345.o
 .PHONY : bfs_1345.o
@@ -240,6 +255,21 @@ bfs_1345.i:
 bfs_1345.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bfs_1345.s
 .PHONY : bfs_1345.s
+
+# target to build an object file
+bfs_2039.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bfs_2039.o
+.PHONY : bfs_2039.o
+
+# target to preprocess a source file
+bfs_2039.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bfs_2039.i
+.PHONY : bfs_2039.i
+
+# target to generate assembly for a file
+bfs_2039.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bfs_2039.s
+.PHONY : bfs_2039.s
 
 # target to build an object file
 bfs_didirection_1036.o:
@@ -1248,9 +1278,15 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... base_operation/string_operation.o"
+	@echo "... base_operation/string_operation.i"
+	@echo "... base_operation/string_operation.s"
 	@echo "... bfs_1345.o"
 	@echo "... bfs_1345.i"
 	@echo "... bfs_1345.s"
+	@echo "... bfs_2039.o"
+	@echo "... bfs_2039.i"
+	@echo "... bfs_2039.s"
 	@echo "... bfs_didirection_1036.o"
 	@echo "... bfs_didirection_1036.i"
 	@echo "... bfs_didirection_1036.s"
