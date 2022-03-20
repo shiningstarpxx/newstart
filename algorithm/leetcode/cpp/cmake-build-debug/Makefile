@@ -1157,6 +1157,21 @@ tire_tree.s:
 .PHONY : tire_tree.s
 
 # target to build an object file
+tire_tree_1268.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/tire_tree_1268.o
+.PHONY : tire_tree_1268.o
+
+# target to preprocess a source file
+tire_tree_1268.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/tire_tree_1268.i
+.PHONY : tire_tree_1268.i
+
+# target to generate assembly for a file
+tire_tree_1268.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/tire_tree_1268.s
+.PHONY : tire_tree_1268.s
+
+# target to build an object file
 tire_tree_648.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/tire_tree_648.o
 .PHONY : tire_tree_648.o
@@ -1464,6 +1479,9 @@ help:
 	@echo "... tire_tree.o"
 	@echo "... tire_tree.i"
 	@echo "... tire_tree.s"
+	@echo "... tire_tree_1268.o"
+	@echo "... tire_tree_1268.i"
+	@echo "... tire_tree_1268.s"
 	@echo "... tire_tree_648.o"
 	@echo "... tire_tree_648.i"
 	@echo "... tire_tree_648.s"
