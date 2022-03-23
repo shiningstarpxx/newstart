@@ -1337,6 +1337,21 @@ tire_tree_offer065.s:
 .PHONY : tire_tree_offer065.s
 
 # target to build an object file
+tire_tree_offer67.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/tire_tree_offer67.o
+.PHONY : tire_tree_offer67.o
+
+# target to preprocess a source file
+tire_tree_offer67.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/tire_tree_offer67.i
+.PHONY : tire_tree_offer67.i
+
+# target to generate assembly for a file
+tire_tree_offer67.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/tire_tree_offer67.s
+.PHONY : tire_tree_offer67.s
+
+# target to build an object file
 topological_sort_851.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/topological_sort_851.o
 .PHONY : topological_sort_851.o
@@ -1620,6 +1635,9 @@ help:
 	@echo "... tire_tree_offer065.o"
 	@echo "... tire_tree_offer065.i"
 	@echo "... tire_tree_offer065.s"
+	@echo "... tire_tree_offer67.o"
+	@echo "... tire_tree_offer67.i"
+	@echo "... tire_tree_offer67.s"
 	@echo "... topological_sort_851.o"
 	@echo "... topological_sort_851.i"
 	@echo "... topological_sort_851.s"
