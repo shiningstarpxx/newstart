@@ -2,35 +2,12 @@
 // Created by 裴星鑫 on 2022/3/23.
 //
 
-//给定整数 n 和 k，返回 [1, n] 中字典序第 k 小的数字。
-//
-//
-//
-// 示例 1:
-//
-//
-//输入: n = 13, k = 2
-//输出: 10
-//解释: 字典序的排列是 [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9]，所以第二小的数字是 10。
-//
-//
-// 示例 2:
-//
-//
-//输入: n = 1, k = 1
-//输出: 1
-//
-//
-//
-//
-// 提示:
-//
-//
-// 1 <= k <= n <= 10⁹
-//
-// Related Topics 字典树 👍 394 👎 0
+#include <iostream>
 
-//leetcode submit region begin(Prohibit modification and deletion)
+#include "gtest/gtest.h"
+
+using namespace std;
+
 class Solution {
 public:
     int findKthNumber(int n, int k) {
@@ -53,11 +30,12 @@ public:
       int steps = 0;
       long first = curr;
       long end = curr;
-      while (first <= n) {
+      while (first <= n) {  // 字典树构造，一个节点下面会是下一个区间的节点
         steps += min(end, n) - first + 1;
         first = first * 10;
         end = end * 10 + 9;
       }
+      // 比如【10， 19】 =》 【100， 199】
       return steps;
     }
 
@@ -65,4 +43,8 @@ public:
       return a <= b ? a : b;
     }
 };
-//leetcode submit region end(Prohibit modification and deletion)
+
+TEST(Solution, findKthNumber) {
+  Solution s;
+  EXPECT_EQ(1, s.findKthNumber(5, 1));
+}
