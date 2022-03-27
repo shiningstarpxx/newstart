@@ -737,6 +737,21 @@ hashtable_594lt.s:
 .PHONY : hashtable_594lt.s
 
 # target to build an object file
+manacher_5.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/manacher_5.o
+.PHONY : manacher_5.o
+
+# target to preprocess a source file
+manacher_5.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/manacher_5.i
+.PHONY : manacher_5.i
+
+# target to generate assembly for a file
+manacher_5.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/manacher_5.s
+.PHONY : manacher_5.s
+
+# target to build an object file
 math_260lt.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/math_260lt.o
 .PHONY : math_260lt.o
@@ -1590,6 +1605,9 @@ help:
 	@echo "... hashtable_594lt.o"
 	@echo "... hashtable_594lt.i"
 	@echo "... hashtable_594lt.s"
+	@echo "... manacher_5.o"
+	@echo "... manacher_5.i"
+	@echo "... manacher_5.s"
 	@echo "... math_260lt.o"
 	@echo "... math_260lt.i"
 	@echo "... math_260lt.s"

@@ -28,5 +28,5 @@ add_executable(Google_Tests_run math_260lt.cpp dfs_488lt.cpp dp_629lt.cpp dp_375
         dfs_2049.cpp data_structure_432.cpp tire_tree_720.cpp tire_tree_648.cpp tire_tree.cpp vector_sort_692.cpp tire_tree_820.cpp
         bfs_2039.cpp tire_tree_1268.cpp tire_tree_1023.cpp tire_tree_421.cpp tire_tree_1233.cpp
         slide_window_2038.cpp tire_tree_offer063.cpp tire_tree_offer065.cpp tire_tree_066.cpp tire_tree_offer67.cpp tire_tree_interview1715.cpp
-        tire_tree_440.cpp dp_route_plan_120.cpp dp_route_plan_931.cpp dp_route_plan_1289.cpp dp_route_plan_1575_dfs.cpp)
+        tire_tree_440.cpp dp_route_plan_120.cpp dp_route_plan_931.cpp dp_route_plan_1289.cpp dp_route_plan_1575_dfs.cpp manacher_5.cpp)
 target_link_libraries(Google_Tests_run gtest gtest_main)
