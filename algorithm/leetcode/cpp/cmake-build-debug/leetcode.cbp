@@ -427,6 +427,9 @@
 		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/greedy_630.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
+		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/greedy_jump2_45.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
 		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/hash_1995.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
