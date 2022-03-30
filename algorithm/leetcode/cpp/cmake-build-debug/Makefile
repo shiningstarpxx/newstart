@@ -227,6 +227,21 @@ gtest/fast:
 .PHONY : gtest/fast
 
 # target to build an object file
+base_operation/set_operation.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/base_operation/set_operation.o
+.PHONY : base_operation/set_operation.o
+
+# target to preprocess a source file
+base_operation/set_operation.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/base_operation/set_operation.i
+.PHONY : base_operation/set_operation.i
+
+# target to generate assembly for a file
+base_operation/set_operation.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/base_operation/set_operation.s
+.PHONY : base_operation/set_operation.s
+
+# target to build an object file
 bfs_1345.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Google_Tests_run.dir/build.make CMakeFiles/Google_Tests_run.dir/bfs_1345.o
 .PHONY : bfs_1345.o
@@ -1593,6 +1608,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... base_operation/set_operation.o"
+	@echo "... base_operation/set_operation.i"
+	@echo "... base_operation/set_operation.s"
 	@echo "... bfs_1345.o"
 	@echo "... bfs_1345.i"
 	@echo "... bfs_1345.s"
