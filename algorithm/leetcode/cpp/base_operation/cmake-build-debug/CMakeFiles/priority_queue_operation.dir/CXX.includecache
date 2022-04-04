@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation/tree_array_fenwich_tree/fenwick_tree.cpp
+iostream
+-
+vector
+-
+
