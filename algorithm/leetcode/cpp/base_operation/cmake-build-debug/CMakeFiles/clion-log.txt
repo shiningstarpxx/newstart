@@ -1,5 +1,6 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
+    -- src/presum.cpp will be compiled to bin/presum
     -- src/priority_queue_operation.cpp will be compiled to bin/priority_queue_operation
     -- src/set_operation.cpp will be compiled to bin/set_operation
     -- src/string_operation.cpp will be compiled to bin/string_operation
