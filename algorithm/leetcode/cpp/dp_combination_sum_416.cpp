@@ -1,5 +1,6 @@
 //
 // Created by 裴星鑫 on 2022/4/13.
+// description: 本质上是背包问题 knapsack
 //
 #include <numeric>
 #include <vector>
@@ -43,7 +44,7 @@ class Solution {
     return dp[nums.size()].back();
   }
 
-  bool OneDemision(vector<int>& nums) {
+  bool OneDemision(vector<int>& nums) {  // 实际上是二维, 滚动数组
     if (nums.size() < 2) return false;
     int sum = accumulate(nums.begin(), nums.end(), 0);
     if (sum % 2 != 0) return false;
@@ -60,6 +61,24 @@ class Solution {
           tmp[j] = dp[j] || dp[j - nums[i]];
       }
       dp = tmp;
+    }
+    return dp.back();
+  }
+
+  bool RealOneDemision(vector<int>& nums) {
+    if (nums.size() < 2) return false;
+    int sum = accumulate(nums.begin(), nums.end(), 0);
+    if (sum % 2 != 0) return false;
+
+    int target = sum / 2;
+
+    vector<bool> dp(target + 1);
+    dp[0] = true;  // 一个不取
+
+    for (int i = 0; i < nums.size(); i++) {
+      for (int j = target; j >= 1; j--) {
+        dp[j] = dp[j] || dp[j - nums[i]];
+      }
     }
     return dp.back();
   }
