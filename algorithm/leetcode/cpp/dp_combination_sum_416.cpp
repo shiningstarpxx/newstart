@@ -10,7 +10,7 @@ using namespace std;
 class Solution {
  public:
   bool canPartition(vector<int>& nums) {
-    return OneDemision(nums);
+    return OneDimension(nums);
   }
 
   // TLE
@@ -22,7 +22,7 @@ class Solution {
     return Helper(nums, index + 1, target, sum + nums[index]) || Helper(nums, index + 1, target, sum);
   }
 
-  bool TwoDemisions(vector<int>& nums) {
+  bool MatrixSolution(vector<int>& nums) {
     if (nums.size() < 2) return false;
     int sum = accumulate(nums.begin(), nums.end(), 0);
     if (sum % 2 != 0) return false;
@@ -44,7 +44,7 @@ class Solution {
     return dp[nums.size()].back();
   }
 
-  bool OneDemision(vector<int>& nums) {  // 实际上是二维, 滚动数组
+  bool RollArray(vector<int>& nums) {  // 实际上是二维, 滚动数组
     if (nums.size() < 2) return false;
     int sum = accumulate(nums.begin(), nums.end(), 0);
     if (sum % 2 != 0) return false;
@@ -65,7 +65,7 @@ class Solution {
     return dp.back();
   }
 
-  bool RealOneDemision(vector<int>& nums) {
+  bool OneDimension(vector<int>& nums) {
     if (nums.size() < 2) return false;
     int sum = accumulate(nums.begin(), nums.end(), 0);
     if (sum % 2 != 0) return false;
