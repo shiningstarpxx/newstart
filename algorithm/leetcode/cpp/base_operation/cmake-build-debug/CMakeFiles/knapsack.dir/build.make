@@ -274,6 +274,19 @@ CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analy
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.cc -o CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.s
 
+CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o: CMakeFiles/knapsack.dir/flags.make
+CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o: /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o -c /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.cpp
+
+CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.cpp > CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.i
+
+CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.cpp -o CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.s
+
 # Object files for target knapsack
 knapsack_OBJECTS = \
 "CMakeFiles/knapsack.dir/knapsack/knapsack.o" \
@@ -291,7 +304,8 @@ knapsack_OBJECTS = \
 "CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_902.o" \
 "CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.o" \
 "CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.o" \
-"CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o"
+"CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o" \
+"CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o"
 
 # External object files for target knapsack
 knapsack_EXTERNAL_OBJECTS =
@@ -312,9 +326,10 @@ knapsack: CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_so
 knapsack: CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.o
 knapsack: CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.o
 knapsack: CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o
+knapsack: CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o
 knapsack: CMakeFiles/knapsack.dir/build.make
 knapsack: CMakeFiles/knapsack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable knapsack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable knapsack"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/knapsack.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
