@@ -454,6 +454,39 @@ Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/c
 .PHONY : Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_300.s
 
 # target to build an object file
+Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
+.PHONY : Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
+
+# target to preprocess a source file
+Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
+.PHONY : Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
+
+# target to generate assembly for a file
+Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
+.PHONY : Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
+
+# target to build an object file
 Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_413.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_413.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_413.o
@@ -915,6 +948,9 @@ help:
 	@echo "... Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_300.o"
 	@echo "... Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_300.i"
 	@echo "... Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_300.s"
+	@echo "... Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o"
+	@echo "... Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i"
+	@echo "... Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s"
 	@echo "... Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_413.o"
 	@echo "... Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_413.i"
 	@echo "... Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_413.s"
