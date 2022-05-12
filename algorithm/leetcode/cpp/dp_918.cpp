@@ -5,6 +5,8 @@
 #include <vector>
 using namespace std;
 
+// 最核心的思想，是反过来想
+// 求最大就可以变成求最小问题
 class Solution {
 public:
     int maxSubarraySumCircular(vector<int>& nums) {
