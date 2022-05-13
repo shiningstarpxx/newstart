@@ -326,6 +326,19 @@ CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_a
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.cpp -o CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
 
+CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.o: CMakeFiles/fenwick_tree.dir/flags.make
+CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.o: /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.o -c /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.cpp
+
+CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.cpp > CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.i
+
+CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.cpp -o CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.s
+
 # Object files for target fenwick_tree
 fenwick_tree_OBJECTS = \
 "CMakeFiles/fenwick_tree.dir/tree_array_fenwich_tree/fenwick_tree.o" \
@@ -347,7 +360,8 @@ fenwick_tree_OBJECTS = \
 "CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o" \
 "CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o" \
 "CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_300.o" \
-"CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o"
+"CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o" \
+"CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.o"
 
 # External object files for target fenwick_tree
 fenwick_tree_EXTERNAL_OBJECTS =
@@ -372,9 +386,10 @@ fenwick_tree: CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/g
 fenwick_tree: CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o
 fenwick_tree: CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_300.o
 fenwick_tree: CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
+fenwick_tree: CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.o
 fenwick_tree: CMakeFiles/fenwick_tree.dir/build.make
 fenwick_tree: CMakeFiles/fenwick_tree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable fenwick_tree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable fenwick_tree"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fenwick_tree.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
