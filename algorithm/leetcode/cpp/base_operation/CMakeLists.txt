@@ -19,6 +19,10 @@ set(CMAKE_CXX_STANDARD 14)
 file (GLOB_RECURSE files *.cpp)
 foreach (file ${files})
     string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
+<<<<<<< HEAD
     add_executable (${exe} ${file} ../array_tree.cpp ../dp_673.cpp ../array_tree_1310.cpp ../dp_139.cpp ../dp_42.cpp ../dp_413.cpp ../bfs_310.cpp presum.cpp ../dp_route_plan_221.cpp ../dp_distance_72.cpp ../dp_combination_sum_416.cpp ../dp_902.cpp ../dp_string_131.cpp knapsack/knapsack.cpp ../dfs_417.cpp ../slide_window_713.cc ../dp_1728.cpp ../dp_300.cpp ../dp_354.cpp ../dp_198.cpp)
+=======
+    add_executable (${exe} ${file} ../array_tree.cpp ../dp_673.cpp ../array_tree_1310.cpp ../dp_139.cpp ../dp_42.cpp ../dp_413.cpp ../bfs_310.cpp presum.cpp ../dp_route_plan_221.cpp ../dp_distance_72.cpp ../dp_combination_sum_416.cpp ../dp_902.cpp ../dp_string_131.cpp knapsack/knapsack.cpp ../dfs_417.cpp ../slide_window_713.cc ../dp_1728.cpp ../dp_300.cpp ../dp_354.cpp ../dp_918.cpp ../dp_matrix_sum_17.24.cpp ../dp_matrix_sum_363.cpp)
+>>>>>>> 00180d8672e36b1dfb8477e732e86e4537790e6c
     message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
 endforeach ()
