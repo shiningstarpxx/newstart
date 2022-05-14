@@ -6,6 +6,7 @@
 
 using namespace std;
 
+// 深度搜索，可以解决很多问题，这里深度搜索+memorization实现了最优化解的问题
 class Solution {
 public:
     int minStickers(vector<string>& stickers, string target) {
