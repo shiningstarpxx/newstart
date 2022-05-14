@@ -377,6 +377,7 @@ CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/lee
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.cpp -o CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.s
 
+<<<<<<< HEAD
 CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_691.o: CMakeFiles/presum.dir/flags.make
 CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_691.o: /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_691.cpp
 CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_691.o: CMakeFiles/presum.dir/compiler_depend.ts
@@ -390,6 +391,20 @@ CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/lee
 CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_691.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_691.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_691.cpp -o CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_691.s
+=======
+CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.o: CMakeFiles/presum.dir/flags.make
+CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.o: /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.o -c /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.cpp
+
+CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.cpp > CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.i
+
+CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.cpp -o CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.s
+>>>>>>> e9198cf9589672f62bad4381bab458ac7ff4face
 
 # Object files for target presum
 presum_OBJECTS = \
@@ -407,6 +422,14 @@ presum_OBJECTS = \
 "CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.o" \
 "CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.o" \
 "CMakeFiles/presum.dir/knapsack/knapsack.o" \
+<<<<<<< HEAD
+"CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.o" \
+"CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o" \
+"CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o" \
+"CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_300.o" \
+"CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o" \
+"CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.o"
+=======
 "CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.o" \
 "CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o" \
 "CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o" \
@@ -414,8 +437,13 @@ presum_OBJECTS = \
 "CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o" \
 "CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.o" \
 "CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.o" \
+<<<<<<< HEAD
 "CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.o" \
 "CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_691.o"
+=======
+"CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.o"
+>>>>>>> 00180d8672e36b1dfb8477e732e86e4537790e6c
+>>>>>>> e9198cf9589672f62bad4381bab458ac7ff4face
 
 # External object files for target presum
 presum_EXTERNAL_OBJECTS =
@@ -434,6 +462,17 @@ presum: CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algor
 presum: CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.o
 presum: CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.o
 presum: CMakeFiles/presum.dir/knapsack/knapsack.o
+<<<<<<< HEAD
+presum: CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.o
+presum: CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o
+presum: CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o
+presum: CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_300.o
+presum: CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
+presum: CMakeFiles/presum.dir/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.o
+presum: CMakeFiles/presum.dir/build.make
+presum: CMakeFiles/presum.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable presum"
+=======
 presum: CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.o
 presum: CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o
 presum: CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o
@@ -445,7 +484,12 @@ presum: CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algor
 presum: CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_691.o
 presum: CMakeFiles/presum.dir/build.make
 presum: CMakeFiles/presum.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable presum"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable presum"
+>>>>>>> 00180d8672e36b1dfb8477e732e86e4537790e6c
+>>>>>>> e9198cf9589672f62bad4381bab458ac7ff4face
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/presum.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
