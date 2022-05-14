@@ -21,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.o.d"
   "CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.o"
   "CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.o.d"
+  "CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_691.o"
+  "CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_691.o.d"
   "CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.o"
   "CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.o.d"
   "CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.o"
