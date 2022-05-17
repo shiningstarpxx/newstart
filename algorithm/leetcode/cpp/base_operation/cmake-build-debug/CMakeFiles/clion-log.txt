@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation
+=======
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation
+>>>>>>> e20acbec2609c64efe9b5acd5525aea542bddb98
 CMake Error at CMakeLists.txt:22:
   Parse error.  Expected a command name, got unquoted argument with text
   "<<<<<<<".
 
 
 -- Configuring incomplete, errors occurred!
+<<<<<<< HEAD
+=======
+See also "/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles/CMakeError.log".
+>>>>>>> e20acbec2609c64efe9b5acd5525aea542bddb98
