@@ -1,184 +1,33 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation
-CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/Platform/Darwin-Initialize.cmake:303 (message):
-  Ignoring CMAKE_OSX_SYSROOT value:
-
-   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
-
-  because the directory does not exist.
-Call Stack (most recent call first):
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake:21 (include)
-  CMakeLists.txt:1 (project)
-
-
-CMake Warning (dev) at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeDetermineCompilerId.cmake:649 (if):
-  Policy CMP0054 is not set: Only interpret if() arguments as variables or
-  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
-  details.  Use the cmake_policy command to set the policy and suppress this
-  warning.
-
-  Quoted variables like "" will no longer be dereferenced when the policy is
-  set to NEW.  Since the policy is not set the OLD behavior will be used.
-Call Stack (most recent call first):
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeDetermineCCompiler.cmake:118 (CMAKE_DETERMINE_COMPILER_ID)
-  CMakeLists.txt:1 (project)
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
-CMake Warning (dev) at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeDetermineCompilerId.cmake:781 (if):
-  Policy CMP0054 is not set: Only interpret if() arguments as variables or
-  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
-  details.  Use the cmake_policy command to set the policy and suppress this
-  warning.
-
-  Quoted variables like "" will no longer be dereferenced when the policy is
-  set to NEW.  Since the policy is not set the OLD behavior will be used.
-Call Stack (most recent call first):
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeDetermineCompilerId.cmake:11 (CMAKE_DETERMINE_COMPILER_ID_CHECK)
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeDetermineCCompiler.cmake:118 (CMAKE_DETERMINE_COMPILER_ID)
-  CMakeLists.txt:1 (project)
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
--- The C compiler identification is AppleClang 12.0.5.12050022
-CMake Warning (dev) at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeDetermineCCompiler.cmake:181 (if):
-  Policy CMP0054 is not set: Only interpret if() arguments as variables or
-  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
-  details.  Use the cmake_policy command to set the policy and suppress this
-  warning.
-
-  Quoted variables like "" will no longer be dereferenced when the policy is
-  set to NEW.  Since the policy is not set the OLD behavior will be used.
-Call Stack (most recent call first):
-  CMakeLists.txt:1 (project)
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
-CMake Warning (dev) at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeFindBinUtils.cmake:128 (if):
-  Policy CMP0054 is not set: Only interpret if() arguments as variables or
-  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
-  details.  Use the cmake_policy command to set the policy and suppress this
-  warning.
-
-  Quoted variables like "" will no longer be dereferenced when the policy is
-  set to NEW.  Since the policy is not set the OLD behavior will be used.
-Call Stack (most recent call first):
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeDetermineCCompiler.cmake:196 (include)
-  CMakeLists.txt:1 (project)
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
-CMake Warning (dev) at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeFindBinUtils.cmake:129 (if):
-  Policy CMP0054 is not set: Only interpret if() arguments as variables or
-  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
-  details.  Use the cmake_policy command to set the policy and suppress this
-  warning.
-
-  Quoted variables like "" will no longer be dereferenced when the policy is
-  set to NEW.  Since the policy is not set the OLD behavior will be used.
-Call Stack (most recent call first):
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeDetermineCCompiler.cmake:196 (include)
-  CMakeLists.txt:1 (project)
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
-CMake Warning (dev) at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeFindBinUtils.cmake:134 (if):
-  Policy CMP0054 is not set: Only interpret if() arguments as variables or
-  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
-  details.  Use the cmake_policy command to set the policy and suppress this
-  warning.
-
-  Quoted variables like "" will no longer be dereferenced when the policy is
-  set to NEW.  Since the policy is not set the OLD behavior will be used.
-Call Stack (most recent call first):
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeDetermineCCompiler.cmake:196 (include)
-  CMakeLists.txt:1 (project)
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
--- The CXX compiler identification is AppleClang 12.0.5.12050022
-CMake Warning (dev) at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeDetermineCXXCompiler.cmake:180 (if):
-  Policy CMP0054 is not set: Only interpret if() arguments as variables or
-  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
-  details.  Use the cmake_policy command to set the policy and suppress this
-  warning.
-
-  Quoted variables like "" will no longer be dereferenced when the policy is
-  set to NEW.  Since the policy is not set the OLD behavior will be used.
-Call Stack (most recent call first):
-  CMakeLists.txt:1 (project)
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
-CMake Warning (dev) at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake:70 (if):
-  Policy CMP0054 is not set: Only interpret if() arguments as variables or
-  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
-  details.  Use the cmake_policy command to set the policy and suppress this
-  warning.
-
-  Quoted variables like "" will no longer be dereferenced when the policy is
-  set to NEW.  Since the policy is not set the OLD behavior will be used.
-Call Stack (most recent call first):
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake:92 (_DETERMINE_GCC_SYSTEM_INCLUDE_DIRS)
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeFindCodeBlocks.cmake:15 (include)
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake:44 (include)
-  CMakeLists.txt:1 (project)
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
-CMake Warning (dev) at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake:30 (if):
-  Policy CMP0054 is not set: Only interpret if() arguments as variables or
-  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
-  details.  Use the cmake_policy command to set the policy and suppress this
-  warning.
-
-  Quoted variables like "" will no longer be dereferenced when the policy is
-  set to NEW.  Since the policy is not set the OLD behavior will be used.
-Call Stack (most recent call first):
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeCInformation.cmake:105 (cmake_initialize_per_config_variable)
-  CMakeLists.txt:1 (project)
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation
+-- The C compiler identification is AppleClang 13.1.6.13160021
+-- The CXX compiler identification is AppleClang 13.1.6.13160021
 -- Detecting C compiler ABI info
--- Detecting C compiler ABI info - failed
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - broken
-CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeTestCCompiler.cmake:66 (message):
-  The C compiler
-
-    "/Library/Developer/CommandLineTools/usr/bin/cc"
-
-  is not able to compile a simple test program.
-
-  It fails with the following output:
-
-    Change Dir: /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles/CMakeTmp
-    
-    Run Build Command(s):/usr/bin/make -f Makefile cmTC_5c563/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5c563.dir/build.make CMakeFiles/cmTC_5c563.dir/build
-    Building C object CMakeFiles/cmTC_5c563.dir/testCCompiler.c.o
-    /Library/Developer/CommandLineTools/usr/bin/cc    -MD -MT CMakeFiles/cmTC_5c563.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_5c563.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_5c563.dir/testCCompiler.c.o -c /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-    Linking C executable cmTC_5c563
-    /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c563.dir/link.txt --verbose=1
-    /Library/Developer/CommandLineTools/usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5c563.dir/testCCompiler.c.o -o cmTC_5c563 
-    ld: library not found for -lSystem
-    clang: error: linker command failed with exit code 1 (use -v to see invocation)
-    make[1]: *** [cmTC_5c563] Error 1
-    make: *** [cmTC_5c563/fast] Error 2
-    
-    
-
-  
-
-  CMake will not be able to correctly generate this project.
-Call Stack (most recent call first):
-  CMakeLists.txt:1 (project)
-
-
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+    -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
+    -- src/knapsack.cpp will be compiled to bin/knapsack
+    -- src/presum.cpp will be compiled to bin/presum
+    -- src/priority_queue_operation.cpp will be compiled to bin/priority_queue_operation
+    -- src/set_operation.cpp will be compiled to bin/set_operation
+    -- src/string_operation.cpp will be compiled to bin/string_operation
+    -- src/fenwick_tree.cpp will be compiled to bin/fenwick_tree
 CMake Warning (dev) in CMakeLists.txt:
   No cmake_minimum_required command is present.  A line of code such as
 
-    cmake_minimum_required(VERSION 3.20)
+    cmake_minimum_required(VERSION 3.21)
 
   should be added at the top of the file.  The version specified may be lower
   if you wish to support older CMake versions for this project.  For more
   information run "cmake --help-policy CMP0000".
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
--- Configuring incomplete, errors occurred!
-See also "/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles/CMakeError.log".
-Cannot read project file /Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/base_operation.cbp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug

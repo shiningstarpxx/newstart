@@ -405,20 +405,7 @@
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
-<<<<<<< HEAD
-		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_198.cpp">
-			<Option target="fenwick_tree"/>
-			<Option target="set_operation"/>
-			<Option target="presum"/>
-			<Option target="string_operation"/>
-			<Option target="priority_queue_operation"/>
-			<Option target="knapsack"/>
-			<Option target="CMakeCXXCompilerId"/>
-		</Unit>
-		<Unit filename="/Users/peixingxin/code/tencent_doctor/golang_source_analyses/algorithm/leetcode/cpp/dp_300.cpp">
-=======
 		<Unit filename="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.cpp">
->>>>>>> 00180d8672e36b1dfb8477e732e86e4537790e6c
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
@@ -455,15 +442,6 @@
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
 		<Unit filename="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.cpp">
-			<Option target="fenwick_tree"/>
-			<Option target="set_operation"/>
-			<Option target="presum"/>
-			<Option target="string_operation"/>
-			<Option target="priority_queue_operation"/>
-			<Option target="knapsack"/>
-			<Option target="CMakeCXXCompilerId"/>
-		</Unit>
-		<Unit filename="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_691.cpp">
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
