@@ -147,6 +147,46 @@
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="segment_tree">
+				<Option output="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/segment_tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 segment_tree"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="segment_tree/fast">
+				<Option output="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/segment_tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 segment_tree/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="string_operation">
 				<Option output="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/string_operation" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
@@ -322,6 +362,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -331,6 +372,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -339,10 +381,21 @@
 		<Unit filename="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp">
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
+		<Unit filename="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/segment_tree.cpp">
+			<Option target="fenwick_tree"/>
+			<Option target="set_operation"/>
+			<Option target="presum"/>
+			<Option target="segment_tree"/>
+			<Option target="string_operation"/>
+			<Option target="priority_queue_operation"/>
+			<Option target="knapsack"/>
+			<Option target="CMakeCXXCompilerId"/>
+		</Unit>
 		<Unit filename="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/knapsack/knapsack.cpp">
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -352,6 +405,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -373,6 +427,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -382,6 +437,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -391,6 +447,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -400,6 +457,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -409,6 +467,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -418,6 +477,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -427,6 +487,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -436,6 +497,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -445,6 +507,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -454,6 +517,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -463,6 +527,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -472,6 +537,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -481,6 +547,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -490,6 +557,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -499,6 +567,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -508,6 +577,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -517,6 +587,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -526,6 +597,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -535,6 +607,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -544,6 +617,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>
@@ -553,6 +627,7 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
+			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
 			<Option target="knapsack"/>

@@ -49,6 +49,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/knapsack.dir/knapsack/knapsack.o.d"
   "CMakeFiles/knapsack.dir/presum.o"
   "CMakeFiles/knapsack.dir/presum.o.d"
+  "CMakeFiles/knapsack.dir/segment_tree.o"
+  "CMakeFiles/knapsack.dir/segment_tree.o.d"
   "knapsack"
   "knapsack.pdb"
 )

@@ -49,6 +49,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/fenwick_tree.dir/knapsack/knapsack.o.d"
   "CMakeFiles/fenwick_tree.dir/presum.o"
   "CMakeFiles/fenwick_tree.dir/presum.o.d"
+  "CMakeFiles/fenwick_tree.dir/segment_tree.o"
+  "CMakeFiles/fenwick_tree.dir/segment_tree.o.d"
   "CMakeFiles/fenwick_tree.dir/tree_array_fenwich_tree/fenwick_tree.o"
   "CMakeFiles/fenwick_tree.dir/tree_array_fenwich_tree/fenwick_tree.o.d"
   "fenwick_tree"

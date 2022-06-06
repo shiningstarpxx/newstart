@@ -49,6 +49,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/set_operation.dir/knapsack/knapsack.o.d"
   "CMakeFiles/set_operation.dir/presum.o"
   "CMakeFiles/set_operation.dir/presum.o.d"
+  "CMakeFiles/set_operation.dir/segment_tree.o"
+  "CMakeFiles/set_operation.dir/segment_tree.o.d"
   "CMakeFiles/set_operation.dir/set_operation.o"
   "CMakeFiles/set_operation.dir/set_operation.o.d"
   "set_operation"
