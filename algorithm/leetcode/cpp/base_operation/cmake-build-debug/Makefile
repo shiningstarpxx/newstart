@@ -156,6 +156,19 @@ presum/fast:
 .PHONY : presum/fast
 
 #=============================================================================
+# Target rules for targets named segment_tree
+
+# Build rule for target.
+segment_tree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 segment_tree
+.PHONY : segment_tree
+
+# fast build rule for target.
+segment_tree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/build
+.PHONY : segment_tree/fast
+
+#=============================================================================
 # Target rules for targets named string_operation
 
 # Build rule for target.
@@ -227,6 +240,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.o
@@ -238,6 +252,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.i
@@ -249,6 +264,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree.s
@@ -260,6 +276,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.o
@@ -271,6 +288,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.i
@@ -282,6 +300,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/array_tree_1310.s
@@ -293,6 +312,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.o
@@ -304,6 +324,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.i
@@ -315,6 +336,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/bfs_310.s
@@ -326,6 +348,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.o
@@ -337,6 +360,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.i
@@ -348,6 +372,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dfs_417.s
@@ -359,6 +384,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.o
@@ -370,6 +396,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.i
@@ -381,6 +408,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_139.s
@@ -392,6 +420,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.o
@@ -403,6 +432,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.i
@@ -414,6 +444,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1728.s
@@ -425,6 +456,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.o
@@ -436,6 +468,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.i
@@ -447,6 +480,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_300.s
@@ -458,6 +492,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.o
@@ -469,6 +504,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.i
@@ -480,6 +516,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_354.s
@@ -491,6 +528,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.o
@@ -502,6 +540,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.i
@@ -513,6 +552,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_413.s
@@ -524,6 +564,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.o
@@ -535,6 +576,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.i
@@ -546,6 +588,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_42.s
@@ -557,6 +600,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.o
@@ -568,6 +612,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.i
@@ -579,6 +624,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.s
@@ -590,6 +636,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.o
@@ -601,6 +648,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.i
@@ -612,6 +660,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_673.s
@@ -623,6 +672,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.o
@@ -634,6 +684,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.i
@@ -645,6 +696,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_902.s
@@ -656,6 +708,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.o
@@ -667,6 +720,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.i
@@ -678,6 +732,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_918.s
@@ -689,6 +744,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combinati
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.o
@@ -700,6 +756,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combinati
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.i
@@ -711,6 +768,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combinati
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_combination_sum_416.s
@@ -722,6 +780,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.o
@@ -733,6 +792,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.i
@@ -744,6 +804,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_distance_72.s
@@ -755,6 +816,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_su
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.o
@@ -766,6 +828,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_su
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.i
@@ -777,6 +840,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_su
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_17.24.s
@@ -788,6 +852,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_su
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.o
@@ -799,6 +864,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_su
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.i
@@ -810,6 +876,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_su
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_matrix_sum_363.s
@@ -821,6 +888,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_pla
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.o
@@ -832,6 +900,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_pla
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.i
@@ -843,6 +912,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_pla
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_route_plan_221.s
@@ -854,6 +924,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.o
@@ -865,6 +936,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.i
@@ -876,6 +948,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_string_131.s
@@ -887,6 +960,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.o
@@ -898,6 +972,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.i
@@ -909,6 +984,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/slide_window_713.s
@@ -920,6 +996,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sor
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.o
@@ -931,6 +1008,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sor
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.i
@@ -942,6 +1020,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sor
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.s
@@ -953,6 +1032,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.o
@@ -964,6 +1044,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.i
@@ -975,6 +1056,7 @@ Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.s
@@ -986,6 +1068,7 @@ knapsack/knapsack.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/knapsack/knapsack.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/knapsack/knapsack.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/knapsack/knapsack.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/knapsack/knapsack.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/knapsack/knapsack.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/knapsack/knapsack.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/knapsack/knapsack.o
@@ -997,6 +1080,7 @@ knapsack/knapsack.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/knapsack/knapsack.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/knapsack/knapsack.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/knapsack/knapsack.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/knapsack/knapsack.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/knapsack/knapsack.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/knapsack/knapsack.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/knapsack/knapsack.i
@@ -1008,6 +1092,7 @@ knapsack/knapsack.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/knapsack/knapsack.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/knapsack/knapsack.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/knapsack/knapsack.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/knapsack/knapsack.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/knapsack/knapsack.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/knapsack/knapsack.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/knapsack/knapsack.s
@@ -1019,6 +1104,7 @@ presum.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/presum.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/presum.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/presum.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/presum.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/presum.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/presum.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/presum.o
@@ -1030,6 +1116,7 @@ presum.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/presum.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/presum.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/presum.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/presum.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/presum.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/presum.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/presum.i
@@ -1041,6 +1128,7 @@ presum.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/presum.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/presum.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/presum.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/presum.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/presum.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/presum.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/presum.s
@@ -1061,6 +1149,42 @@ priority_queue_operation/priority_queue_operation.i:
 priority_queue_operation/priority_queue_operation.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/priority_queue_operation/priority_queue_operation.s
 .PHONY : priority_queue_operation/priority_queue_operation.s
+
+# target to build an object file
+segment_tree.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/segment_tree.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/segment_tree.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/segment_tree.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/segment_tree.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/segment_tree.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/segment_tree.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/segment_tree.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/segment_tree.o
+.PHONY : segment_tree.o
+
+# target to preprocess a source file
+segment_tree.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/segment_tree.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/segment_tree.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/segment_tree.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/segment_tree.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/segment_tree.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/segment_tree.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/segment_tree.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/segment_tree.i
+.PHONY : segment_tree.i
+
+# target to generate assembly for a file
+segment_tree.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenwick_tree.dir/build.make CMakeFiles/fenwick_tree.dir/segment_tree.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_operation.dir/build.make CMakeFiles/set_operation.dir/segment_tree.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/presum.dir/build.make CMakeFiles/presum.dir/segment_tree.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segment_tree.dir/build.make CMakeFiles/segment_tree.dir/segment_tree.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_operation.dir/build.make CMakeFiles/string_operation.dir/segment_tree.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue_operation.dir/build.make CMakeFiles/priority_queue_operation.dir/segment_tree.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/knapsack.dir/build.make CMakeFiles/knapsack.dir/segment_tree.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/segment_tree.s
+.PHONY : segment_tree.s
 
 # target to build an object file
 set_operation.o:
@@ -1120,6 +1244,7 @@ help:
 	@echo "... knapsack"
 	@echo "... presum"
 	@echo "... priority_queue_operation"
+	@echo "... segment_tree"
 	@echo "... set_operation"
 	@echo "... string_operation"
 	@echo "... CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.o"
@@ -1203,6 +1328,9 @@ help:
 	@echo "... priority_queue_operation/priority_queue_operation.o"
 	@echo "... priority_queue_operation/priority_queue_operation.i"
 	@echo "... priority_queue_operation/priority_queue_operation.s"
+	@echo "... segment_tree.o"
+	@echo "... segment_tree.i"
+	@echo "... segment_tree.s"
 	@echo "... set_operation.o"
 	@echo "... set_operation.i"
 	@echo "... set_operation.s"
