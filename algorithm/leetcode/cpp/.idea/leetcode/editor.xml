@@ -36,6 +36,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[1861]旋转盒子.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/doc/content/[1861]旋转盒子.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1861" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[1861]旋转盒子.cpp" />
+              <option name="titleSlug" value="rotating-the-box" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[1872]石子游戏 VIII.cpp">
           <value>
             <LeetcodeEditor>
@@ -44,6 +55,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[1872]石子游戏 VIII.cpp" />
               <option name="titleSlug" value="stone-game-viii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[1958]检查操作是否合法.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/doc/content/[1958]检查操作是否合法.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1958" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[1958]检查操作是否合法.cpp" />
+              <option name="titleSlug" value="check-if-move-is-legal" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -135,6 +157,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[498]对角线遍历.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/doc/content/[498]对角线遍历.md" />
+              <option name="frontendQuestionId" value="leetcode.cn498" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[498]对角线遍历.cpp" />
+              <option name="titleSlug" value="diagonal-traverse" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[508]出现次数最多的子树元素和.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/doc/content/[508]出现次数最多的子树元素和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn508" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[508]出现次数最多的子树元素和.cpp" />
+              <option name="titleSlug" value="most-frequent-subtree-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[689]三个无重叠子数组的最大和.cpp">
           <value>
             <LeetcodeEditor>
@@ -168,6 +212,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[890]查找和替换模式.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/doc/content/[890]查找和替换模式.md" />
+              <option name="frontendQuestionId" value="leetcode.cn890" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[890]查找和替换模式.cpp" />
+              <option name="titleSlug" value="find-and-replace-pattern" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[926]将字符串翻转到单调递增.cpp">
           <value>
             <LeetcodeEditor>
@@ -187,6 +242,39 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[929]独特的电子邮件地址.cpp" />
               <option name="titleSlug" value="unique-email-addresses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[951]翻转等价二叉树.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/doc/content/[951]翻转等价二叉树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn951" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[951]翻转等价二叉树.cpp" />
+              <option name="titleSlug" value="flip-equivalent-binary-trees" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[剑指 Offer II 029]排序的循环链表.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/doc/content/[剑指 Offer II 029]排序的循环链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 029" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[剑指 Offer II 029]排序的循环链表.cpp" />
+              <option name="titleSlug" value="4ueAj6" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[剑指 Offer II 051]节点之和最大的路径.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/doc/content/[剑指 Offer II 051]节点之和最大的路径.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 051" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[剑指 Offer II 051]节点之和最大的路径.cpp" />
+              <option name="titleSlug" value="jC7MId" />
             </LeetcodeEditor>
           </value>
         </entry>
