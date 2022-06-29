@@ -433,6 +433,34 @@ CMakeFiles/presum.dir/segment_tree.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/presum.dir/segment_tree.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/segment_tree.cpp -o CMakeFiles/presum.dir/segment_tree.s
 
+CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.o: CMakeFiles/presum.dir/flags.make
+CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.o: /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.cpp
+CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.o: CMakeFiles/presum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.o -MF CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.o.d -o CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.o -c /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.cpp
+
+CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.cpp > CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.i
+
+CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.cpp -o CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.s
+
+CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.o: CMakeFiles/presum.dir/flags.make
+CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.o: /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.cpp
+CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.o: CMakeFiles/presum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.o -MF CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.o.d -o CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.o -c /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.cpp
+
+CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.cpp > CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.i
+
+CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.cpp -o CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.s
+
 # Object files for target presum
 presum_OBJECTS = \
 "CMakeFiles/presum.dir/presum.o" \
@@ -460,7 +488,9 @@ presum_OBJECTS = \
 "CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/toplogic_sort_offer__114.o" \
 "CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.o" \
 "CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.o" \
-"CMakeFiles/presum.dir/segment_tree.o"
+"CMakeFiles/presum.dir/segment_tree.o" \
+"CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.o" \
+"CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.o"
 
 # External object files for target presum
 presum_EXTERNAL_OBJECTS =
@@ -491,9 +521,11 @@ presum: CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algor
 presum: CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_473.o
 presum: CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.o
 presum: CMakeFiles/presum.dir/segment_tree.o
+presum: CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.o
+presum: CMakeFiles/presum.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.o
 presum: CMakeFiles/presum.dir/build.make
 presum: CMakeFiles/presum.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable presum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable presum"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/presum.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
