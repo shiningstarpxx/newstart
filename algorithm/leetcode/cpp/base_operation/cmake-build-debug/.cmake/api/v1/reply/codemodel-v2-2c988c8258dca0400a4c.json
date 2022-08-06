@@ -1,0 +1,119 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "base_operation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CMakeCXXCompilerId::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMakeCXXCompilerId-Debug-c82b8579de4aabe80bc0.json",
+					"name" : "CMakeCXXCompilerId",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fenwick_tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fenwick_tree-Debug-5be379b12bdea53bdc63.json",
+					"name" : "fenwick_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "knapsack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-knapsack-Debug-f9e58c9df62a2e9b1273.json",
+					"name" : "knapsack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "presum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-presum-Debug-3098a3a0c94b543df1b2.json",
+					"name" : "presum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "priority_queue_operation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-priority_queue_operation-Debug-a8736143486b295f520f.json",
+					"name" : "priority_queue_operation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segment_tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segment_tree-Debug-3459b2fe277054847cfc.json",
+					"name" : "segment_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "set_operation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-set_operation-Debug-e81aa0a4db478358b376.json",
+					"name" : "set_operation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "string_operation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-string_operation-Debug-ddde1350fc79c602aee2.json",
+					"name" : "string_operation",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug",
+		"source" : "/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
