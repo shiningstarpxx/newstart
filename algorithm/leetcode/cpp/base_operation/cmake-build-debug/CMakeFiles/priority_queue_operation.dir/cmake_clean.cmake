@@ -57,6 +57,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/priority_queue_operation.dir/priority_queue_operation/priority_queue_operation.o.d"
   "CMakeFiles/priority_queue_operation.dir/segment_tree.o"
   "CMakeFiles/priority_queue_operation.dir/segment_tree.o.d"
+  "CMakeFiles/priority_queue_operation.dir/segment_tree/segment_tree.o"
+  "CMakeFiles/priority_queue_operation.dir/segment_tree/segment_tree.o.d"
   "priority_queue_operation"
   "priority_queue_operation.pdb"
 )

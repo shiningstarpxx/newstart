@@ -54,9 +54,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/fenwick_tree.dir/DependInfo.cmake"
   "CMakeFiles/set_operation.dir/DependInfo.cmake"
   "CMakeFiles/presum.dir/DependInfo.cmake"
-  "CMakeFiles/segment_tree.dir/DependInfo.cmake"
   "CMakeFiles/string_operation.dir/DependInfo.cmake"
   "CMakeFiles/priority_queue_operation.dir/DependInfo.cmake"
+  "CMakeFiles/palindrome.dir/DependInfo.cmake"
+  "CMakeFiles/segment_tree.dir/DependInfo.cmake"
   "CMakeFiles/knapsack.dir/DependInfo.cmake"
   "CMakeFiles/CMakeCXXCompilerId.dir/DependInfo.cmake"
   )

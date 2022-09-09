@@ -59,6 +59,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CMakeCXXCompilerId.dir/presum.o.d"
   "CMakeFiles/CMakeCXXCompilerId.dir/segment_tree.o"
   "CMakeFiles/CMakeCXXCompilerId.dir/segment_tree.o.d"
+  "CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.o"
+  "CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

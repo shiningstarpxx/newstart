@@ -55,6 +55,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/segment_tree.dir/presum.o.d"
   "CMakeFiles/segment_tree.dir/segment_tree.o"
   "CMakeFiles/segment_tree.dir/segment_tree.o.d"
+  "CMakeFiles/segment_tree.dir/segment_tree/segment_tree.o"
+  "CMakeFiles/segment_tree.dir/segment_tree/segment_tree.o.d"
   "segment_tree"
   "segment_tree.pdb"
 )

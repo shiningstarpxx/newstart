@@ -147,46 +147,6 @@
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="segment_tree">
-				<Option output="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/segment_tree" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 segment_tree"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="segment_tree/fast">
-				<Option output="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/segment_tree" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 segment_tree/fast"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="string_operation">
 				<Option output="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/string_operation" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
@@ -262,6 +222,86 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 priority_queue_operation/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="palindrome">
+				<Option output="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/palindrome" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 palindrome"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="palindrome/fast">
+				<Option output="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/palindrome" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 palindrome/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="segment_tree">
+				<Option output="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/segment_tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 segment_tree"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="segment_tree/fast">
+				<Option output="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/segment_tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 segment_tree/fast"/>
 					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -362,9 +402,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -372,9 +413,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -385,9 +427,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -395,24 +438,51 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
+		</Unit>
+		<Unit filename="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/palindrome/palindrome.cpp">
+			<Option target="palindrome"/>
 		</Unit>
 		<Unit filename="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/presum.cpp">
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
 		<Unit filename="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/priority_queue_operation/priority_queue_operation.cpp">
 			<Option target="priority_queue_operation"/>
+		</Unit>
+		<Unit filename="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/segment_tree/segment_tree.cpp">
+			<Option target="fenwick_tree"/>
+			<Option target="set_operation"/>
+			<Option target="presum"/>
+			<Option target="string_operation"/>
+			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
+			<Option target="knapsack"/>
+			<Option target="CMakeCXXCompilerId"/>
+		</Unit>
+		<Unit filename="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/segment_tree/segment_tree.h">
+			<Option target="fenwick_tree"/>
+			<Option target="set_operation"/>
+			<Option target="presum"/>
+			<Option target="string_operation"/>
+			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
+			<Option target="knapsack"/>
+			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
 		<Unit filename="/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/set_operation.cpp">
 			<Option target="set_operation"/>
@@ -427,9 +497,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -437,9 +508,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -447,9 +519,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -457,9 +530,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -467,9 +541,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -477,9 +552,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -487,9 +563,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -497,9 +574,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -507,9 +585,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -517,9 +596,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -527,9 +607,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -537,9 +618,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -547,9 +629,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -557,9 +640,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -567,9 +651,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -577,9 +662,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -587,9 +673,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -597,9 +684,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -607,9 +695,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -617,9 +706,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -627,9 +717,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -637,9 +728,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
@@ -647,9 +739,10 @@
 			<Option target="fenwick_tree"/>
 			<Option target="set_operation"/>
 			<Option target="presum"/>
-			<Option target="segment_tree"/>
 			<Option target="string_operation"/>
 			<Option target="priority_queue_operation"/>
+			<Option target="palindrome"/>
+			<Option target="segment_tree"/>
 			<Option target="knapsack"/>
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>

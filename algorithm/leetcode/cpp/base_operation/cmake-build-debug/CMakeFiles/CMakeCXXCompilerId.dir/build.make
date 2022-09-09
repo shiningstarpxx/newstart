@@ -475,6 +475,20 @@ CMakeFiles/CMakeCXXCompilerId.dir/Users/peixingxin/code/golang_source_analyses/a
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMakeCXXCompilerId.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.cpp -o CMakeFiles/CMakeCXXCompilerId.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.s
 
+CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.o: CMakeFiles/CMakeCXXCompilerId.dir/flags.make
+CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.o: ../segment_tree/segment_tree.cpp
+CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.o: CMakeFiles/CMakeCXXCompilerId.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.o -MF CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.o.d -o CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.o -c /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/segment_tree/segment_tree.cpp
+
+CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/segment_tree/segment_tree.cpp > CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.i
+
+CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/segment_tree/segment_tree.cpp -o CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.s
+
 # Object files for target CMakeCXXCompilerId
 CMakeCXXCompilerId_OBJECTS = \
 "CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.o" \
@@ -505,7 +519,8 @@ CMakeCXXCompilerId_OBJECTS = \
 "CMakeFiles/CMakeCXXCompilerId.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/tree_450.o" \
 "CMakeFiles/CMakeCXXCompilerId.dir/segment_tree.o" \
 "CMakeFiles/CMakeCXXCompilerId.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.o" \
-"CMakeFiles/CMakeCXXCompilerId.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.o"
+"CMakeFiles/CMakeCXXCompilerId.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.o" \
+"CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.o"
 
 # External object files for target CMakeCXXCompilerId
 CMakeCXXCompilerId_EXTERNAL_OBJECTS =
@@ -539,9 +554,10 @@ CMakeCXXCompilerId: CMakeFiles/CMakeCXXCompilerId.dir/Users/peixingxin/code/gola
 CMakeCXXCompilerId: CMakeFiles/CMakeCXXCompilerId.dir/segment_tree.o
 CMakeCXXCompilerId: CMakeFiles/CMakeCXXCompilerId.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/setment_tree_307.o
 CMakeCXXCompilerId: CMakeFiles/CMakeCXXCompilerId.dir/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/dp_1deminsion_withk_813.o
+CMakeCXXCompilerId: CMakeFiles/CMakeCXXCompilerId.dir/segment_tree/segment_tree.o
 CMakeCXXCompilerId: CMakeFiles/CMakeCXXCompilerId.dir/build.make
 CMakeCXXCompilerId: CMakeFiles/CMakeCXXCompilerId.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable CMakeCXXCompilerId"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable CMakeCXXCompilerId"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CMakeCXXCompilerId.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

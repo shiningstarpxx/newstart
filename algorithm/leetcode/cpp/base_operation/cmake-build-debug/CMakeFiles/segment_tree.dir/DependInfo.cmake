@@ -36,6 +36,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/knapsack/knapsack.cpp" "CMakeFiles/segment_tree.dir/knapsack/knapsack.o" "gcc" "CMakeFiles/segment_tree.dir/knapsack/knapsack.o.d"
   "/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/presum.cpp" "CMakeFiles/segment_tree.dir/presum.o" "gcc" "CMakeFiles/segment_tree.dir/presum.o.d"
   "/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/cmake-build-debug/segment_tree.cpp" "CMakeFiles/segment_tree.dir/segment_tree.o" "gcc" "CMakeFiles/segment_tree.dir/segment_tree.o.d"
+  "/Users/peixingxin/code/golang_source_analyses/algorithm/leetcode/cpp/base_operation/segment_tree/segment_tree.cpp" "CMakeFiles/segment_tree.dir/segment_tree/segment_tree.o" "gcc" "CMakeFiles/segment_tree.dir/segment_tree/segment_tree.o.d"
   )
 
 # Targets to which this target links.
