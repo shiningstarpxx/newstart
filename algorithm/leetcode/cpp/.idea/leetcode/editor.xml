@@ -3,6 +3,7 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+<<<<<<< HEAD
         <entry key="/var/folders/h_/s80c8xcn0hl6jzh825m8g7v80000gn/T/leetcode/editor/cn/[1012]至少有 1 位重复的数字.cpp">
           <value>
             <LeetcodeEditor>
@@ -616,6 +617,71 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="/var/folders/h_/s80c8xcn0hl6jzh825m8g7v80000gn/T/leetcode/editor/cn/[面试题 17.19]消失的两个数字.cpp" />
               <option name="titleSlug" value="missing-two-lcci" />
+=======
+        <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[1652]拆炸弹.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/doc/content/[1652]拆炸弹.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1652" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[1652]拆炸弹.cpp" />
+              <option name="titleSlug" value="defuse-the-bomb" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[1694]重新格式化电话号码.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/doc/content/[1694]重新格式化电话号码.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1694" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[1694]重新格式化电话号码.cpp" />
+              <option name="titleSlug" value="reformat-phone-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[777]在LR字符串中交换相邻字符.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/doc/content/[777]在LR字符串中交换相邻字符.md" />
+              <option name="frontendQuestionId" value="leetcode.cn777" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[777]在LR字符串中交换相邻字符.cpp" />
+              <option name="titleSlug" value="swap-adjacent-in-lr-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[788]旋转数字.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/doc/content/[788]旋转数字.md" />
+              <option name="frontendQuestionId" value="leetcode.cn788" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[788]旋转数字.cpp" />
+              <option name="titleSlug" value="rotated-digits" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[827]最大人工岛.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/doc/content/[827]最大人工岛.md" />
+              <option name="frontendQuestionId" value="leetcode.cn827" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[827]最大人工岛.cpp" />
+              <option name="titleSlug" value="making-a-large-island" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[850]矩形面积 II.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/doc/content/[850]矩形面积 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn850" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/18/h7rdqpd56pd35m0953zdd5640000gn/T/leetcode/editor/cn/[850]矩形面积 II.cpp" />
+              <option name="titleSlug" value="rectangle-area-ii" />
+>>>>>>> fed40b5e142f28f91f5526a32cee5f26f3c1c190
             </LeetcodeEditor>
           </value>
         </entry>
